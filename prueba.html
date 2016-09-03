@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .slides {
+            height: 130px;
+            width: 200px;
+            display: block;
+            padding-top: 70px;
+            text-align: center;
+            font-size: 2em;
+            margin: -100px 0 0 -100px;
+            color: white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            opacity: 0;
+        }
+
+        #animateme1 { background: blue; }
+        #animateme2 { background: green; }
+        #animateme3 { background: red; }
+        #animateme4 { background: purple; }
+    </style>
+</head>
+<body>
+<div class="slides" id="animateme1">Slide 1</div>
+<div class="slides" id="animateme2">Slide 2</div>
+<div class="slides" id="animateme3">Slide 3</div>
+<div class="slides" id="animateme4">Slide 4</div>
+<script>
+    var animations = [
+        { // Fade in first element
+            time:0,
+            step:"animated fadeInUp",
+            selector:'#animateme1'
+        },
+        { // shake that booty
+            time:500,
+            step:"animated shake",
+            selector:'#animateme1'
+        },
+        { // hide first element
+            time:1000,
+            step:"animated flipOutX",
+            selector:'#animateme1'
+        },
+        { // flipInX 2nd element
+            time:1200,
+            step:"animated flipInX",
+            selector:'#animateme2'
+        },
+        { // flipOutY 2nd element
+            time:1300,
+            step:"animated flipOutLeft",
+            selector:'#animateme2'
+        },
+        { // shake
+            time:900,
+            step:"animated flipInY",
+            selector:'#animateme3'
+        },
+        { // tada
+            time:1000,
+            step:"animated fadeInDown",
+            selector:'#animateme4'
+        }
+    ];
+    function runAnimation(i, timeline){
+        setTimeout(function(){        $(animations[i].selector).addClass(animations[i].step);
+        }, timeline);
+    }
+
+    var timeline = 0;
+    for(var i=0; i<animations.length; i++){
+        timeline = parseInt(animations[i].time, 10) + parseInt(timeline, 10);
+        runAnimation(i, timeline);
+    }
+</script>
+</body>
+</html>
