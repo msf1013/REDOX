@@ -1,0 +1,131 @@
+body {
+    font-family: Lato, 'sans-serif';
+    background-color: #EEEEEE;
+}
+.container {
+    padding: 30px;
+    padding-bottom: 90px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+h1 {
+    text-align:center;
+    margin-bottom: 40px;
+}
+.special {
+    color:#F95759;
+}
+.center {
+    text-align: center;
+}
+select {
+    width: 300px;
+    height: 50px;
+    font-size: 17px;
+    font-family: Lato, 'sans-serif';
+}
+option {
+    height: 40px;
+}
+.small_padding {
+    margin-bottom: 30px;
+}
+.big_padding {
+    margin-bottom: 45px;
+}
+.huge_padding {
+    margin-bottom: 100px;
+}
+button {
+    font-family: Lato, 'sans-serif';
+    color: black;
+    border-color: #424242;
+    font-weight: bold;
+    transition-duration: 0.3s;
+}
+/* Tamaño */
+.big_right {
+    height:60px;
+    width: 150px;
+    border-radius: 20px;
+
+    float: right;
+    margin-right: 10%;
+    font-size: 18px;
+}
+
+.big_menu {
+    height:60px;
+    width: 150px;
+    border-radius: 20px;
+
+    margin-left: -75px;
+    position:relative;
+    left:50%;
+    font-size: 18px;
+}
+
+.small_right {
+    height:40px;
+    width: 100px;
+    border-radius: 15px;
+
+    float: right;
+    margin-right: 12%;
+    font-size: 14px;
+}
+
+.big_left {
+    height:60px;
+    width: 150px;
+    border-radius: 20px;
+
+    float: left;
+    margin-left: 10%;
+    font-size: 18px;
+}
+
+.small_left {
+    height:40px;
+    width: 100px;
+    border-radius: 15px;
+
+    float: left;
+    margin-left: 12%;
+    font-size: 14px;
+}
+/* Tipo */
+.normal {
+    background-color:#FEF898;
+}
+.danger {
+    background-color: #F95759;
+}
+/* Hover */
+.normal:hover {
+    background-color: darkolivegreen;
+    color: white;
+}
+.danger:hover {
+    background-color: purple;
+    color: white;
+}
+hr {
+    width: 60%;
+    border: 1px solid #424242;
+}
+iframe {
+    border: none;
+    margin: 10px;
+    max-width: 90%;
+}
+.big_text {
+    font-size: 30px;
+}
+.small_input {
+    width: 70px;
+    font-family: Lato, 'sans-serif';
+}

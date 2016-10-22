@@ -65,6 +65,11 @@ function Slide(arrElements, arrAnimationSteps, duration) {
             // Start running effects in current animation step
             runAnimation(arrEffectsIn, arrEffectsOut, arrSelectors, totalTime, animationType);
         }
+        if (animationType == "in") {
+            setTimeout(function() {
+                arrSlides[currentSlideIndex].addButtons();
+            }, duration + 1800);
+        }
     }
 
     // Add Slide's transition buttons
@@ -106,7 +111,6 @@ function Slide(arrElements, arrAnimationSteps, duration) {
                         maxSlideIndex = currentSlideIndex;
                         arrSlides[currentSlideIndex].initialize(true);
                         arrSlides[currentSlideIndex].run("in");
-                        arrSlides[currentSlideIndex].addButtons();
                     }, duration + 1500);
                 } else {
                     clearBody();
@@ -137,5 +141,4 @@ console.log(arrSlides);
 function start() {
     arrSlides[0].initialize(true);
     arrSlides[0].run("in");
-    arrSlides[0].addButtons();
 }
