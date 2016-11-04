@@ -4,29 +4,11 @@
     <title>Redox orgánica</title>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="css/common.css" rel="stylesheet">
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/animaciones.js"></script>
+    <script src="js/flujo.js"></script>
 </head>
-<body>
-    <div class="container">
-        <button class="small_right danger">Salir</button>
-        <button class="small_left normal">Ver recordatorio</button>
-        <h1>C + O₂ &rarr; CO₂</h1>
-
-        <h2 class="center small_padding">Paso 1: Balancear coeficientes del lado izquierdo</h2>
-        <p class="center">Tomando en cuenta que la ecuacion es <span class="special">C + O₂ &rarr; CO₂</span>, esto significa que los valores deben ser:</p>
-        <!-- Parrafo sin normalizar-->
-        <p style="font-weight: bold; font-size: 30px; text-align: center"><span style="color: #F95759">1</span>C + <span style="color: #F95759">2</span>O</p>
-        <p class="center">Dado que los coeficientes deben ser divididos entre 2, el resultado final es el siguiente:</p>
-
-        <div class="center big_text small_padding">
-            <input type="text" class="small_input big_text">
-            C +
-            <input type="text" class="small_input big_text">
-            O
-        </div>
-        <div>
-            <button class="big_left normal">Regresar</button>
-            <button class="big_right normal">Avanzar</button>
-        </div>
-    </div>
+<body onload="start()">
 </body>
 </html>

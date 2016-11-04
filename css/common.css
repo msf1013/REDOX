@@ -102,15 +102,15 @@ button {
     background-color:#FEF898;
 }
 .danger {
-    background-color: #F95759;
+    background-color: #FEF898;
 }
 /* Hover */
 .normal:hover {
-    background-color: darkolivegreen;
+    background-color: #008000;
     color: white;
 }
 .danger:hover {
-    background-color: purple;
+    background-color: #F95759;
     color: white;
 }
 hr {
