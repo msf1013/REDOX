@@ -4,14 +4,17 @@
     <title>Redox orgánica</title>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="css/common.css" rel="stylesheet">
+    <script src="js/globals.js"></script>
 </head>
 <body>
     <div class="container">
         <h1>Reacciones redox de <span class="special">compuestos orgánicos</span></h1>
-        <h2 class="center">Selecciona una reacción para practicar:</h2>
+
+        <!-- Seccion paso por paso -->
+        <h2 class="center">Reacciones paso por paso:</h2>
         <div class="center">
-            <select>
-                <option>C + O₂ &rarr; CO₂</option>
+            <select id="equations">
+                <option>C₃H₇CHO + H₂ &rarr; C₄H₉OHC</option>
                 <option>C + O₂ &rarr; CO₂</option>
                 <option>C + O₂ &rarr; CO₂</option>
                 <option>C + O₂ &rarr; CO₂</option>
@@ -19,13 +22,34 @@
             </select>
         </div>
         <br>
-        <button class="big_menu normal small_padding center">Iniciar</button>
+        <button onclick="moveToTutorial(0)" class="big_menu normal small_padding center">Iniciar</button>
         <hr class="big_padding">
-        <h2 class="center">Tutoriales:</h2>
+
+        <!-- Seccion de quiz -->
+        <h2 class="center">Ejercicios:</h2>
         <div class="center">
-            <iframe width="420" height="315" src="https://www.youtube.com/embed/bJMUKNbAsTY" allowfullscreen></iframe>
-            <iframe width="420" height="315" src="https://www.youtube.com/embed/bJMUKNbAsTY" allowfullscreen></iframe>
-            <iframe width="420" height="315" src="https://www.youtube.com/embed/bJMUKNbAsTY" allowfullscreen></iframe>
+            <select id="equations2">
+                <option>C₃H₇CHO + H₂ &rarr; C₄H₉OHC</option>
+                <option>C + O₂ &rarr; CO₂</option>
+                <option>C + O₂ &rarr; CO₂</option>
+                <option>C + O₂ &rarr; CO₂</option>
+                <option>C + O₂ &rarr; CO₂</option>
+            </select>
+        </div>
+        <br>
+        <button onclick="moveToTutorial(5)" class="big_menu normal small_padding center">Iniciar</button>
+        <hr class="big_padding">
+
+        <!-- Seccion de Fun facts -->
+        <h2 class="center">Fun facts</h2>
+
+        <button onclick="moveToTutorial()" class="big_menu normal small_padding center">Iniciar</button>
+        <hr class="big_padding">
+
+        <!-- Seccion de video -->
+        <h2 class="center">Tutorial:</h2>
+        <div class="center">
+            <iframe width="600" height="450" src="https://www.youtube.com/embed/bJMUKNbAsTY" allowfullscreen></iframe>
         </div>
     </div>
 </body>
