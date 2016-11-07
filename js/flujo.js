@@ -27,13 +27,32 @@ function start() {
 
 var lastSlide = -1;
 
-function compareAnswers () {
+function checkAnswers (slide) {
+    var answers = document.getElementsByTagName("input");
 
+    for (i = 0; i < answers.length; i ++) {
+        if (answers[i].value != slide.answers[i]) return false;
+    }
+
+    return true;
+}
+
+function giveAnswers(slide) {
+    var answers = document.getElementsByTagName("input");
+
+    for (i = 0; i < answers.length; i ++) {
+        answers[i].value = slide.answers[i];
+        answers[i].readOnly = true;
+    }
 }
 
 function initialize(slide) {
     document.body.innerHTML = "";
     document.body.innerHTML = slide.content;
+
+    document.getElementById("salir").addEventListener("click", function () {
+        window.location.href = 'home.html';
+    });
 
     // Animacion de entrada
     if (slide.num > lastSlide) {
@@ -43,8 +62,7 @@ function initialize(slide) {
     console.log("attempts");
     console.log(slide.attempts);
     if (slide.num < lastSlide || slide.attempts > 3) {
-        document.getElementById("answer").value = slide["answer"];
-        document.getElementById("answer").readOnly = true;
+        giveAnswers(slide);
     }
 
     // Boton de avanzar
@@ -56,13 +74,13 @@ function initialize(slide) {
             if (slide.num == lastSlide) {
                 // Checar respuesta
 
-                console.log(document.getElementById("answer").value);
-                console.log(slide["answer"]);
+                //console.log(document.getElementById("answer").value);
+                //console.log(slide["answer"]);
 
-                if (document.getElementById("answer").value == slide["answer"]) {
+                if (checkAnswers(slide)) {
 
                     if (slide.attempts <= 3) {
-                        document.getElementById("answer").readOnly = true;
+                        giveAnswers(slide);
                         document.getElementById("feedback").innerHTML = "¡Correcto!";
                         document.getElementById("feedback").style.color = "green";
                         document.getElementById("feedback").style.fontSize = 30;
@@ -94,9 +112,7 @@ function initialize(slide) {
 
                     slide.attempts ++;
 
-                    document.getElementById("answer").readOnly = true;
-                    document.getElementById("answer").value = slide["answer"];
-
+                    giveAnswers(slide);
 
                     document.getElementById("feedback").innerHTML = "Buen intento, sigue practicando";
                     document.getElementById("feedback").style.color = "orange";
