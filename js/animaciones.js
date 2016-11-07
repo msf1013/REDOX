@@ -7,7 +7,7 @@ arrEquations = [
             "content" : `
             <div id="slide" class="container">
                 <button id="salir" class="small_right danger">Salir</button>
-                <button class="small_left normal">Ver recordatorio</button>
+                <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
                 <h1>C₃H₇CHO + H₂ &rarr; C₄H₉OHC</h1>
         
                 <h2 class="center small_padding">Paso 1: Asignar los números de oxidación de cada molécula</h2>             
@@ -35,13 +35,13 @@ arrEquations = [
             "content" : `
             <div id="slide" class="container">
                 <button id="salir" class="small_right danger">Salir</button>
-                <button class="small_left normal">Ver recordatorio</button>
+                <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
                 <h1>C₃H₇CHO + H₂ &rarr; C₄H₉OHC</h1>
         
                 <h2 class="center small_padding">Paso 2: Agregar uno de los hidrógenos a donde está el doble enlace del carbono</h2>
                 <p class="center"><img src="img/pasos/reaccion1/paso1.png"></p>
                 <p class="center">Ese carbono quedará con un <span style="color: #F95759">enlace simple</span> y con dos <span style="color: #F95759">hidrógenos</span>.</p>
-                <p class="center">Escribe la ecuación con el <span style="color: #F95759">hidrógeno agregado:</span></p>
+                <p class="center">Escribe la ecuación con el <span style="color: #F95759">hidrógeno agregado</span>:</p>
                 
                 <div class="center big_text small_padding">
                     CH₃ - CH₂ - CH₂ - <input id="answer" type="text" class="small_input big_text">
@@ -61,7 +61,7 @@ arrEquations = [
             "content" : `
             <div id="slide" class="container">
                 <button id="salir" class="small_right danger">Salir</button>
-                <button class="small_left normal">Ver recordatorio</button>
+                <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
                 <h1>C₃H₇CHO + H₂ &rarr; C₄H₉OHC</h1>
         
                 <h2 class="center small_padding">Paso 3: Asignar la carga formal de los átomos</h2>
@@ -85,7 +85,7 @@ arrEquations = [
             "content" : `
             <div id="slide" class="container">
                 <button id="salir" class="small_right danger">Salir</button>
-                <button class="small_left normal">Ver recordatorio</button>
+                <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
                 <h1>C₃H₇CHO + H₂ &rarr; C₄H₉OHC</h1>
         
                 <h2 class="center small_padding">Paso 4: Agregar el otro hidrógeno al oxígeno</h2>
@@ -110,7 +110,7 @@ arrEquations = [
             "content" : `
             <div id="slide" class="container">
                 <button id="salir" class="small_right danger">Salir</button>
-                <button class="small_left normal">Ver recordatorio</button>
+                <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
                 <h1>C₃H₇CHO + H₂ &rarr; C₄H₉OHC</h1>
         
                 <h2 class="center small_padding">Paso 5: Asignar el número de oxidación del producto</h2>
@@ -139,7 +139,7 @@ arrEquations = [
             "content" : `
             <div id="slide" class="container">
                 <button id="salir" class="small_right danger">Salir</button>
-                <button class="small_left normal">Ver recordatorio</button>
+                <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
                 <h1>C₃H₇CHO + H₂ &rarr; C₄H₉OHC</h1>
         
                 <h2 class="center small_padding">¡Muy bien! Has terminado con esta reacción</h2>
@@ -161,101 +161,109 @@ arrEquations = [
     [
         {
             "num" : 0,
+            "attempts" : 0,
             "content" : `
             <div id="slide" class="container">
-                <button class="small_right danger">Salir</button>
-                <button class="small_left normal">Ver recordatorio</button>
-                <h1>C + O₂ &rarr; CO₂</h1>
+                <button id="salir" class="small_right danger">Salir</button>
+                <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
+                <h1>C₄H₈ + Cl₂ &rarr; CH₃CHClCHClCH₃</h1>
         
-                <h2 class="center small_padding">Paso 1: Balancear coeficientes del lado izquierdo</h2>
-                <p class="center">Tomando en cuenta que la ecuacion es <span class="special">C + O₂ &rarr; CO₂</span>, esto significa que los valores deben ser:</p>
-                <!-- Parrafo sin normalizar-->
-                <p style="font-weight: bold; font-size: 30px; text-align: center"><span style="color: #F95759">1</span>C + <span style="color: #F95759">2</span>O</p>
-                <p class="center">Dado que los coeficientes deben ser divididos entre 2, el resultado final es el siguiente:</p>
-        
+                <h2 class="center small_padding">Paso 1: Asignar los números de oxidación de cada molécula</h2>             
+                <p class="center"><img src="img/pasos/reaccion2/paso1.png"></p>
+                <p class="center">Completa en cada campo de texto el <span style="color: #F95759">número de oxidación</span> de la molécula (recuerda escribir el signo):</p>
+                <p class="center"><span style="color: #F95759">PISTA:</span> En el caso de los halógenos, su número de oxidación será 0 ya que son iones. Cuando están formando una molécula es cuando aplica su número de oxidación.</p>
+                        
                 <div class="center big_text small_padding">
-                    <input type="text" class="small_input big_text">
+                    CH₃<input id="answer" type="text" class="small_input big_text">
+                    CH<input id="answer" type="text" class="small_input big_text">
+                    CH<input id="answer" type="text" class="small_input big_text">
+                    CH₃<input id="answer" type="text" class="small_input big_text">
+                    Cl₂<input id="answer" type="text" class="small_input big_text">
                 </div>
                 <div>
+                    <p id="feedback" class="feedback"></p>
                     <button id="avanzar" class="big_right normal">Avanzar</button>
                 </div>
             </div>
         `,
-            "answer" : "hola"
+            "answers" : ["-3", "-1", "-1", "-3", "0"]
         },
         {
             "num" : 1,
+            "attempts" : 0,
             "content" : `
             <div id="slide" class="container">
-                <button class="small_right danger">Salir</button>
-                <button class="small_left normal">Ver recordatorio</button>
-                <h1>C + O₂ &rarr; CO₂</h1>
+                <button id="salir" class="small_right danger">Salir</button>
+                <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
+                <h1>C₄H₈ + Cl₂ &rarr; CH₃CHClCHClCH₃</h1>
         
-                <h2 class="center small_padding">Paso 2: Balancear coeficientes del lado izquierdo</h2>
-                <p class="center">Tomando en cuenta que la ecuacion es <span class="special">C + O₂ &rarr; CO₂</span>, esto significa que los valores deben ser:</p>
-                <!-- Parrafo sin normalizar-->
-                <p style="font-weight: bold; font-size: 30px; text-align: center"><span style="color: #F95759">1</span>C + <span style="color: #F95759">2</span>O</p>
-                <p class="center">Dado que los coeficientes deben ser divididos entre 2, el resultado final es el siguiente:</p>
-        
+                <h2 class="center small_padding">Paso 2: Agregar los dos cloros a donde están los dos carbonos que comparten el doble enlace</h2>
+                <p class="center"><img src="img/pasos/reaccion2/paso1.png"></p>
+                <p class="center">Ese carbono quedará con un <span style="color: #F95759">enlace simple</span>, con un hidrógeno y con un cloro.</p>
+                <p class="center">Escribe la ecuación con el <span style="color: #F95759">hidrógeno agregado</span>:</p>
+                
                 <div class="center big_text small_padding">
-                    <input type="text" class="small_input big_text">
+                    CH₃ - <input id="answer" type="text" class="small_input big_text"> -
+                    <input id="answer" type="text" class="small_input big_text"> - CH₃
                 </div>
                 <div>
+                    <p id="feedback" class="feedback"></p>
                     <button id="regresar" class="big_left normal">Regresar</button>
                     <button id="avanzar" class="big_right normal">Avanzar</button>
                 </div>
             </div>
         `,
-            "answer" : "como estas"
+            "answers" : ["CHCl", "CHCl"]
         },
         {
             "num" : 2,
+            "attempts" : 0,
             "content" : `
             <div id="slide" class="container">
-                <button class="small_right danger">Salir</button>
-                <button class="small_left normal">Ver recordatorio</button>
-                <h1>C + O₂ &rarr; CO₂</h1>
+                <button id="salir" class="small_right danger">Salir</button>
+                <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
+                <h1>C₄H₈ + Cl₂ &rarr; CH₃CHClCHClCH₃</h1>
         
-                <h2 class="center small_padding">Paso 3: Balancear coeficientes del lado izquierdo</h2>
-                <p class="center">Tomando en cuenta que la ecuacion es <span class="special">C + O₂ &rarr; CO₂</span>, esto significa que los valores deben ser:</p>
-                <!-- Parrafo sin normalizar-->
-                <p style="font-weight: bold; font-size: 30px; text-align: center"><span style="color: #F95759">1</span>C + <span style="color: #F95759">2</span>O</p>
-                <p class="center">Dado que los coeficientes deben ser divididos entre 2, el resultado final es el siguiente:</p>
-        
+                <h2 class="center small_padding">Paso 3: Asignar los números de oxidación del producto</h2>
+                <p class="center">Completa en cada campo de texto el <span style="color: #F95759">número de oxidación</span> de la molécula:</p>
+                
                 <div class="center big_text small_padding">
-                    <input type="text" class="small_input big_text">
+                    CH₃<input id="answer" type="text" class="small_input big_text">
+                    CHCl<input id="answer" type="text" class="small_input big_text">
+                    CHCl<input id="answer" type="text" class="small_input big_text">
+                    CH₃<input id="answer" type="text" class="small_input big_text">
                 </div>
                 <div>
+                    <p id="feedback" class="feedback"></p>
                     <button id="regresar" class="big_left normal">Regresar</button>
                     <button id="avanzar" class="big_right normal">Avanzar</button>
                 </div>
             </div>
         `,
-            "answer" : "adios"
+            "answers" : ["-3", "0", "0", "-3"]
         },
         {
             "num" : 3,
+            "attempts" : 0,
             "content" : `
             <div id="slide" class="container">
-                <button class="small_right danger">Salir</button>
-                <button class="small_left normal">Ver recordatorio</button>
-                <h1>C + O₂ &rarr; CO₂</h1>
+                <button id="salir" class="small_right danger">Salir</button>
+                <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
+                <h1>C₄H₈ + Cl₂ &rarr; CH₃CHClCHClCH₃</h1>
         
-                <h2 class="center small_padding">Paso 4: Balancear coeficientes del lado izquierdo</h2>
-                <p class="center">Tomando en cuenta que la ecuacion es <span class="special">C + O₂ &rarr; CO₂</span>, esto significa que los valores deben ser:</p>
-                <!-- Parrafo sin normalizar-->
-                <p style="font-weight: bold; font-size: 30px; text-align: center"><span style="color: #F95759">1</span>C + <span style="color: #F95759">2</span>O</p>
-                <p class="center">Dado que los coeficientes deben ser divididos entre 2, el resultado final es el siguiente:</p>
-        
-                <div class="center big_text small_padding">
-                    <input type="text" class="small_input big_text">
-                </div>
+                <h2 class="center small_padding">¡Muy bien! Has terminado con esta reacción</h2>
+                <p class="center"><img src="img/pasos/reaccion2/paso4.png"></p>
+                <p class="center">
+                    La reacción pasa de tener los CH en -1 a CHCl en 0 por lo que
+                    ocurre una <span style="color: #F95759">oxidación</span>, ya que gana electrones.
+                </p>
+                
                 <div>
                     <button id="regresar" class="big_left normal">Regresar</button>
                 </div>
             </div>
         `,
-            "answer" : "suepr bye"
+            "answers" : []
         }
     ],
     // Ecuacion 3

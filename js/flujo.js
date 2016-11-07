@@ -48,10 +48,14 @@ function giveAnswers(slide) {
 
 function initialize(slide) {
     document.body.innerHTML = "";
-    document.body.innerHTML = slide.content;
+    document.body.innerHTML = slide.content + modal;
 
     document.getElementById("salir").addEventListener("click", function () {
         window.location.href = 'home.html';
+    });
+
+    document.getElementById("recordatorio").addEventListener("click", function () {
+        $('#modal').modal({fadeDuration: 200});
     });
 
     // Animacion de entrada
