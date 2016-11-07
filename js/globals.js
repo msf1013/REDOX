@@ -1,7 +1,7 @@
 function moveToTutorial(offset) {
     var equations = document.getElementById("equations");
     var selectedIndex = equations.selectedIndex;
-    window.location.href = "paso_uno.html?equation=" + (selectedIndex + offset);
+    window.location.href = "reacciones.html?ecuacion=" + (selectedIndex + offset);
 }
 
 $.fn.extend({

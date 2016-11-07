@@ -27,7 +27,7 @@ arrEquations = [
                 </div>
             </div>
         `,
-            "answers" : ["-3", "-2", "-2", "+1", "-2"]
+            "answers" : ["-3", "-2", "-2", "1", "-2"]
         },
         {
             "num" : 1,
@@ -266,307 +266,117 @@ arrEquations = [
             "answers" : []
         }
     ],
-    // Ecuacion 3
+    // Ecuacion 2
     [
         {
             "num" : 0,
+            "attempts" : 0,
             "content" : `
             <div id="slide" class="container">
-                <button class="small_right danger">Salir</button>
-                <button class="small_left normal">Ver recordatorio</button>
-                <h1>C + O₂ &rarr; CO₂</h1>
+                <button id="salir" class="small_right danger">Salir</button>
+                <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
+                <h1>C₄H₈O + H₂0 &rarr; C₄H₈O₂ + H₂</h1>
         
-                <h2 class="center small_padding">Paso 1: Balancear coeficientes del lado izquierdo</h2>
-                <p class="center">Tomando en cuenta que la ecuacion es <span class="special">C + O₂ &rarr; CO₂</span>, esto significa que los valores deben ser:</p>
-                <!-- Parrafo sin normalizar-->
-                <p style="font-weight: bold; font-size: 30px; text-align: center"><span style="color: #F95759">1</span>C + <span style="color: #F95759">2</span>O</p>
-                <p class="center">Dado que los coeficientes deben ser divididos entre 2, el resultado final es el siguiente:</p>
-        
+                <h2 class="center small_padding">Paso 1: Asignar los números de oxidación de cada molécula</h2>             
+                <p class="center"><img src="img/pasos/reaccion3/paso1.png"></p>
+                <p class="center">Completa en cada campo de texto el <span style="color: #F95759">número de oxidación</span> de la molécula (recuerda escribir el signo):</p>
+                        
                 <div class="center big_text small_padding">
-                    <input type="text" class="small_input big_text">
+                    CH₃<input id="answer" type="text" class="small_input big_text">
+                    CH₂<input id="answer" type="text" class="small_input big_text">
+                    CH₂<input id="answer" type="text" class="small_input big_text">
+                    CHO<input id="answer" type="text" class="small_input big_text">
+                    H₂O<input id="answer" type="text" class="small_input big_text">
                 </div>
                 <div>
+                    <p id="feedback" class="feedback"></p>
                     <button id="avanzar" class="big_right normal">Avanzar</button>
                 </div>
             </div>
         `,
-            "answer" : "hola"
+            "answers" : ["-3", "-2", "-2", "1", "-1"]
         },
         {
             "num" : 1,
+            "attempts" : 0,
             "content" : `
             <div id="slide" class="container">
-                <button class="small_right danger">Salir</button>
-                <button class="small_left normal">Ver recordatorio</button>
-                <h1>C + O₂ &rarr; CO₂</h1>
+                <button id="salir" class="small_right danger">Salir</button>
+                <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
+                <h1>C₄H₈O + H₂0 &rarr; C₄H₈O₂ + H₂</h1>
         
-                <h2 class="center small_padding">Paso 2: Balancear coeficientes del lado izquierdo</h2>
-                <p class="center">Tomando en cuenta que la ecuacion es <span class="special">C + O₂ &rarr; CO₂</span>, esto significa que los valores deben ser:</p>
-                <!-- Parrafo sin normalizar-->
-                <p style="font-weight: bold; font-size: 30px; text-align: center"><span style="color: #F95759">1</span>C + <span style="color: #F95759">2</span>O</p>
-                <p class="center">Dado que los coeficientes deben ser divididos entre 2, el resultado final es el siguiente:</p>
-        
+                <h2 class="center small_padding">Paso 2: Agregar el OH y/o el hidrógeno al carbono que tiene el doble enlace con el oxígeno</h2>
+                <p class="center">
+                    La molécula de agua se separa en <span style="color: #F95759">H-OH</span>.
+                    El átomo de oxígeno se va a unir con el CH que tiene el <span style="color: #F95759">doble enlace</span> con el oxígeno.
+                </p>
+                <p class="center">
+                    Escribe la ecuación con el <span style="color: #F95759">OH</span>
+                    y/o <span style="color: #F95759">hidrógeno</span> agregado:
+                </p>
                 <div class="center big_text small_padding">
-                    <input type="text" class="small_input big_text">
+                    CH₃ - CH₂ - CH₂ - <input id="answer" type="text" class="small_input big_text">
                 </div>
                 <div>
+                    <p id="feedback" class="feedback"></p>
                     <button id="regresar" class="big_left normal">Regresar</button>
                     <button id="avanzar" class="big_right normal">Avanzar</button>
                 </div>
             </div>
         `,
-            "answer" : "como estas"
+            "answers" : ["COOH"]
         },
         {
             "num" : 2,
+            "attempts" : 0,
             "content" : `
             <div id="slide" class="container">
-                <button class="small_right danger">Salir</button>
-                <button class="small_left normal">Ver recordatorio</button>
-                <h1>C + O₂ &rarr; CO₂</h1>
+                <button id="salir" class="small_right danger">Salir</button>
+                <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
+                <h1>C₄H₈O + H₂0 &rarr; C₄H₈O₂ + H₂</h1>
         
-                <h2 class="center small_padding">Paso 3: Balancear coeficientes del lado izquierdo</h2>
-                <p class="center">Tomando en cuenta que la ecuacion es <span class="special">C + O₂ &rarr; CO₂</span>, esto significa que los valores deben ser:</p>
-                <!-- Parrafo sin normalizar-->
-                <p style="font-weight: bold; font-size: 30px; text-align: center"><span style="color: #F95759">1</span>C + <span style="color: #F95759">2</span>O</p>
-                <p class="center">Dado que los coeficientes deben ser divididos entre 2, el resultado final es el siguiente:</p>
-        
+                <h2 class="center small_padding">Paso 3: Asignar los números de oxidación del producto</h2>
+                <p class="center"><img src="img/pasos/reaccion3/paso3.png"></p>
+                <p class="center">Completa en cada campo de texto el <span style="color: #F95759">número de oxidación</span> de la molécula (recuerda escribir el signo si el número de oxidación es diferente de 0):</p>
+                
                 <div class="center big_text small_padding">
-                    <input type="text" class="small_input big_text">
+                    CH₃<input id="answer" type="text" class="small_input big_text">
+                    CH₂<input id="answer" type="text" class="small_input big_text">
+                    CH₂<input id="answer" type="text" class="small_input big_text">
+                    COOH<input id="answer" type="text" class="small_input big_text">
+                    H₂<input id="answer" type="text" class="small_input big_text">
                 </div>
                 <div>
+                    <p id="feedback" class="feedback"></p>
                     <button id="regresar" class="big_left normal">Regresar</button>
                     <button id="avanzar" class="big_right normal">Avanzar</button>
                 </div>
             </div>
         `,
-            "answer" : "adios"
+            "answers" : ["-3", "-2", "-2", "2", "0"]
         },
         {
             "num" : 3,
+            "attempts" : 0,
             "content" : `
             <div id="slide" class="container">
-                <button class="small_right danger">Salir</button>
-                <button class="small_left normal">Ver recordatorio</button>
-                <h1>C + O₂ &rarr; CO₂</h1>
+                <button id="salir" class="small_right danger">Salir</button>
+                <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
+                <h1>C₄H₈O + H₂0 &rarr; C₄H₈O₂ + H₂</h1>
         
-                <h2 class="center small_padding">Paso 4: Balancear coeficientes del lado izquierdo</h2>
-                <p class="center">Tomando en cuenta que la ecuacion es <span class="special">C + O₂ &rarr; CO₂</span>, esto significa que los valores deben ser:</p>
-                <!-- Parrafo sin normalizar-->
-                <p style="font-weight: bold; font-size: 30px; text-align: center"><span style="color: #F95759">1</span>C + <span style="color: #F95759">2</span>O</p>
-                <p class="center">Dado que los coeficientes deben ser divididos entre 2, el resultado final es el siguiente:</p>
-        
-                <div class="center big_text small_padding">
-                    <input type="text" class="small_input big_text">
-                </div>
+                <h2 class="center small_padding">¡Muy bien! Has terminado con esta reacción</h2>
+                <p class="center"><img src="img/pasos/reaccion3/paso4.png"></p>
+                <p class="center">
+                    La reacción paso de tener -7 a -5, es decir, pierde electrones.
+                    Por lo tanto, es una <span style="color: #F95759">oxidación</span>.
+                </p>
+                
                 <div>
                     <button id="regresar" class="big_left normal">Regresar</button>
                 </div>
             </div>
         `,
-            "answer" : "suepr bye"
+            "answers" : []
         }
     ],
-    // Ecuacion 4
-    [
-        {
-            "num" : 0,
-            "content" : `
-            <div id="slide" class="container">
-                <button class="small_right danger">Salir</button>
-                <button class="small_left normal">Ver recordatorio</button>
-                <h1>C + O₂ &rarr; CO₂</h1>
-        
-                <h2 class="center small_padding">Paso 1: Balancear coeficientes del lado izquierdo</h2>
-                <p class="center">Tomando en cuenta que la ecuacion es <span class="special">C + O₂ &rarr; CO₂</span>, esto significa que los valores deben ser:</p>
-                <!-- Parrafo sin normalizar-->
-                <p style="font-weight: bold; font-size: 30px; text-align: center"><span style="color: #F95759">1</span>C + <span style="color: #F95759">2</span>O</p>
-                <p class="center">Dado que los coeficientes deben ser divididos entre 2, el resultado final es el siguiente:</p>
-        
-                <div class="center big_text small_padding">
-                    <input type="text" class="small_input big_text">
-                </div>
-                <div>
-                    <button id="avanzar" class="big_right normal">Avanzar</button>
-                </div>
-            </div>
-        `,
-            "answer" : "hola"
-        },
-        {
-            "num" : 1,
-            "content" : `
-            <div id="slide" class="container">
-                <button class="small_right danger">Salir</button>
-                <button class="small_left normal">Ver recordatorio</button>
-                <h1>C + O₂ &rarr; CO₂</h1>
-        
-                <h2 class="center small_padding">Paso 2: Balancear coeficientes del lado izquierdo</h2>
-                <p class="center">Tomando en cuenta que la ecuacion es <span class="special">C + O₂ &rarr; CO₂</span>, esto significa que los valores deben ser:</p>
-                <!-- Parrafo sin normalizar-->
-                <p style="font-weight: bold; font-size: 30px; text-align: center"><span style="color: #F95759">1</span>C + <span style="color: #F95759">2</span>O</p>
-                <p class="center">Dado que los coeficientes deben ser divididos entre 2, el resultado final es el siguiente:</p>
-        
-                <div class="center big_text small_padding">
-                    <input type="text" class="small_input big_text">
-                </div>
-                <div>
-                    <button id="regresar" class="big_left normal">Regresar</button>
-                    <button id="avanzar" class="big_right normal">Avanzar</button>
-                </div>
-            </div>
-        `,
-            "answer" : "como estas"
-        },
-        {
-            "num" : 2,
-            "content" : `
-            <div id="slide" class="container">
-                <button class="small_right danger">Salir</button>
-                <button class="small_left normal">Ver recordatorio</button>
-                <h1>C + O₂ &rarr; CO₂</h1>
-        
-                <h2 class="center small_padding">Paso 3: Balancear coeficientes del lado izquierdo</h2>
-                <p class="center">Tomando en cuenta que la ecuacion es <span class="special">C + O₂ &rarr; CO₂</span>, esto significa que los valores deben ser:</p>
-                <!-- Parrafo sin normalizar-->
-                <p style="font-weight: bold; font-size: 30px; text-align: center"><span style="color: #F95759">1</span>C + <span style="color: #F95759">2</span>O</p>
-                <p class="center">Dado que los coeficientes deben ser divididos entre 2, el resultado final es el siguiente:</p>
-        
-                <div class="center big_text small_padding">
-                    <input type="text" class="small_input big_text">
-                </div>
-                <div>
-                    <button id="regresar" class="big_left normal">Regresar</button>
-                    <button id="avanzar" class="big_right normal">Avanzar</button>
-                </div>
-            </div>
-        `,
-            "answer" : "adios"
-        },
-        {
-            "num" : 3,
-            "content" : `
-            <div id="slide" class="container">
-                <button class="small_right danger">Salir</button>
-                <button class="small_left normal">Ver recordatorio</button>
-                <h1>C + O₂ &rarr; CO₂</h1>
-        
-                <h2 class="center small_padding">Paso 4: Balancear coeficientes del lado izquierdo</h2>
-                <p class="center">Tomando en cuenta que la ecuacion es <span class="special">C + O₂ &rarr; CO₂</span>, esto significa que los valores deben ser:</p>
-                <!-- Parrafo sin normalizar-->
-                <p style="font-weight: bold; font-size: 30px; text-align: center"><span style="color: #F95759">1</span>C + <span style="color: #F95759">2</span>O</p>
-                <p class="center">Dado que los coeficientes deben ser divididos entre 2, el resultado final es el siguiente:</p>
-        
-                <div class="center big_text small_padding">
-                    <input type="text" class="small_input big_text">
-                </div>
-                <div>
-                    <button id="regresar" class="big_left normal">Regresar</button>
-                </div>
-            </div>
-        `,
-            "answer" : "suepr bye"
-        }
-    ],
-    // Ecuacion 5
-    [
-        {
-            "num" : 0,
-            "content" : `
-            <div id="slide" class="container">
-                <button class="small_right danger">Salir</button>
-                <button class="small_left normal">Ver recordatorio</button>
-                <h1>C + O₂ &rarr; CO₂</h1>
-        
-                <h2 class="center small_padding">Paso 1: Balancear coeficientes del lado izquierdo</h2>
-                <p class="center">Tomando en cuenta que la ecuacion es <span class="special">C + O₂ &rarr; CO₂</span>, esto significa que los valores deben ser:</p>
-                <!-- Parrafo sin normalizar-->
-                <p style="font-weight: bold; font-size: 30px; text-align: center"><span style="color: #F95759">1</span>C + <span style="color: #F95759">2</span>O</p>
-                <p class="center">Dado que los coeficientes deben ser divididos entre 2, el resultado final es el siguiente:</p>
-        
-                <div class="center big_text small_padding">
-                    <input type="text" class="small_input big_text">
-                </div>
-                <div>
-                    <button id="avanzar" class="big_right normal">Avanzar</button>
-                </div>
-            </div>
-        `,
-            "answer" : "hola"
-        },
-        {
-            "num" : 1,
-            "content" : `
-            <div id="slide" class="container">
-                <button class="small_right danger">Salir</button>
-                <button class="small_left normal">Ver recordatorio</button>
-                <h1>C + O₂ &rarr; CO₂</h1>
-        
-                <h2 class="center small_padding">Paso 2: Balancear coeficientes del lado izquierdo</h2>
-                <p class="center">Tomando en cuenta que la ecuacion es <span class="special">C + O₂ &rarr; CO₂</span>, esto significa que los valores deben ser:</p>
-                <!-- Parrafo sin normalizar-->
-                <p style="font-weight: bold; font-size: 30px; text-align: center"><span style="color: #F95759">1</span>C + <span style="color: #F95759">2</span>O</p>
-                <p class="center">Dado que los coeficientes deben ser divididos entre 2, el resultado final es el siguiente:</p>
-        
-                <div class="center big_text small_padding">
-                    <input type="text" class="small_input big_text">
-                </div>
-                <div>
-                    <button id="regresar" class="big_left normal">Regresar</button>
-                    <button id="avanzar" class="big_right normal">Avanzar</button>
-                </div>
-            </div>
-        `,
-            "answer" : "como estas"
-        },
-        {
-            "num" : 2,
-            "content" : `
-            <div id="slide" class="container">
-                <button class="small_right danger">Salir</button>
-                <button class="small_left normal">Ver recordatorio</button>
-                <h1>C + O₂ &rarr; CO₂</h1>
-        
-                <h2 class="center small_padding">Paso 3: Balancear coeficientes del lado izquierdo</h2>
-                <p class="center">Tomando en cuenta que la ecuacion es <span class="special">C + O₂ &rarr; CO₂</span>, esto significa que los valores deben ser:</p>
-                <!-- Parrafo sin normalizar-->
-                <p style="font-weight: bold; font-size: 30px; text-align: center"><span style="color: #F95759">1</span>C + <span style="color: #F95759">2</span>O</p>
-                <p class="center">Dado que los coeficientes deben ser divididos entre 2, el resultado final es el siguiente:</p>
-        
-                <div class="center big_text small_padding">
-                    <input type="text" class="small_input big_text">
-                </div>
-                <div>
-                    <button id="regresar" class="big_left normal">Regresar</button>
-                    <button id="avanzar" class="big_right normal">Avanzar</button>
-                </div>
-            </div>
-        `,
-            "answer" : "adios"
-        },
-        {
-            "num" : 3,
-            "content" : `
-            <div id="slide" class="container">
-                <button class="small_right danger">Salir</button>
-                <button class="small_left normal">Ver recordatorio</button>
-                <h1>C + O₂ &rarr; CO₂</h1>
-        
-                <h2 class="center small_padding">Paso 4: Balancear coeficientes del lado izquierdo</h2>
-                <p class="center">Tomando en cuenta que la ecuacion es <span class="special">C + O₂ &rarr; CO₂</span>, esto significa que los valores deben ser:</p>
-                <!-- Parrafo sin normalizar-->
-                <p style="font-weight: bold; font-size: 30px; text-align: center"><span style="color: #F95759">1</span>C + <span style="color: #F95759">2</span>O</p>
-                <p class="center">Dado que los coeficientes deben ser divididos entre 2, el resultado final es el siguiente:</p>
-        
-                <div class="center big_text small_padding">
-                    <input type="text" class="small_input big_text">
-                </div>
-                <div>
-                    <button id="regresar" class="big_left normal">Regresar</button>
-                </div>
-            </div>
-        `,
-            "answer" : "suepr bye"
-        }
-    ]
 ];

@@ -31,7 +31,8 @@ function checkAnswers (slide) {
     var answers = document.getElementsByTagName("input");
 
     for (i = 0; i < answers.length; i ++) {
-        if (answers[i].value != slide.answers[i]) return false;
+        console.log(answers[i].value.replace(/ /g,'').replace(/\+/g,''));
+        if (answers[i].value.replace(/ /g,'').replace(/\+/g,'') != slide.answers[i]) return false;
     }
 
     return true;
@@ -57,6 +58,10 @@ function initialize(slide) {
     document.getElementById("recordatorio").addEventListener("click", function () {
         $('#modal').modal({fadeDuration: 200});
     });
+
+    window.onbeforeunload = function() {
+        return "Leaving this page will reset the wizard";
+    };
 
     // Animacion de entrada
     if (slide.num > lastSlide) {
