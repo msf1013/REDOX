@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c52fb12d-8950-4014-b127-948ebf000dfe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/common.css" afterPath="$PROJECT_DIR$/css/common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home.html" afterPath="$PROJECT_DIR$/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/animaciones.js" afterPath="$PROJECT_DIR$/js/animaciones.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="REDOX.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="animaciones.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="animaciones.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/animaciones.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="483" column="20" selection-start-line="483" selection-start-column="20" selection-end-line="483" selection-end-column="20" />
+            <state relative-caret-position="739">
+              <caret line="495" column="9" selection-start-line="495" selection-start-column="9" selection-end-line="495" selection-end-column="9" />
               <folding>
                 <marker date="1478643894632" expanded="true" signature="173:1517" ph="..." />
                 <marker date="1478643894632" expanded="true" signature="379:385" ph="→" />
@@ -220,6 +217,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="globals.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/globals.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -285,6 +292,7 @@
         <option value="$PROJECT_DIR$/css/common.css" />
         <option value="$PROJECT_DIR$/home.html" />
         <option value="$PROJECT_DIR$/js/animaciones.js" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -515,15 +523,15 @@
       <workItem from="1477928441242" duration="6509000" />
       <workItem from="1477946947817" duration="725000" />
       <workItem from="1478273081447" duration="37982000" />
-      <workItem from="1478640721079" duration="3827000" />
+      <workItem from="1478640721079" duration="3863000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91419000" />
+    <option name="totallyTimeSpent" value="91455000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-13" y="-13" width="3026" height="1946" extended-state="6" />
+    <frame x="-13" y="-13" width="3026" height="1946" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16833334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -578,13 +586,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/font-awesome.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/buttons.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3564">
@@ -1024,8 +1025,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/animaciones.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="483" column="20" selection-start-line="483" selection-start-column="20" selection-end-line="483" selection-end-column="20" />
+        <state relative-caret-position="739">
+          <caret line="495" column="9" selection-start-line="495" selection-start-column="9" selection-end-line="495" selection-end-column="9" />
           <folding>
             <marker date="1478643894632" expanded="true" signature="173:1517" ph="..." />
             <marker date="1478643894632" expanded="true" signature="379:385" ph="→" />
@@ -1158,6 +1159,14 @@
             <marker date="1478643894632" expanded="true" signature="30451:30465" ph="..." />
             <marker date="1478643894632" expanded="true" signature="30543:30650" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
