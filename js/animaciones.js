@@ -8,7 +8,7 @@ arrEquations = [
             <div id="slide" class="container">
                 <button id="salir" class="small_right danger">Salir</button>
                 <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
-                <h1>C₃H₇CHO + H₂ &rarr; C₄H₉OH</h1>
+                <h1>C₄H₈O + H₂ &rarr; C₄H₉OH</h1>
         
                 <h2 class="center small_padding">Paso 1: Asignar los números de oxidación de cada molécula</h2>             
                 <p class="center"><img src="img/pasos/reaccion1/paso1.png"></p>
@@ -36,7 +36,7 @@ arrEquations = [
             <div id="slide" class="container">
                 <button id="salir" class="small_right danger">Salir</button>
                 <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
-                <h1>C₃H₇CHO + H₂ &rarr; C₄H₉OH</h1>
+                <h1>C₄H₈O + H₂ &rarr; C₄H₉OH</h1>
         
                 <h2 class="center small_padding">Paso 2: Agregar uno de los hidrógenos a donde está el doble enlace del carbono</h2>
                 <p class="center"><img src="img/pasos/reaccion1/paso1.png"></p>
@@ -62,7 +62,7 @@ arrEquations = [
             <div id="slide" class="container">
                 <button id="salir" class="small_right danger">Salir</button>
                 <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
-                <h1>C₃H₇CHO + H₂ &rarr; C₄H₉OH</h1>
+                <h1>C₄H₈O + H₂ &rarr; C₄H₉OH</h1>
         
                 <h2 class="center small_padding">Paso 3: Asignar la carga formal de los átomos</h2>
                 <p class="center">Escribe la carga formal del <span style="color: #F95759">oxígeno</span>:</p>
@@ -86,7 +86,7 @@ arrEquations = [
             <div id="slide" class="container">
                 <button id="salir" class="small_right danger">Salir</button>
                 <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
-                <h1>C₃H₇CHO + H₂ &rarr; C₄H₉OH</h1>
+                <h1>C₄H₈O + H₂ &rarr; C₄H₉OH</h1>
         
                 <h2 class="center small_padding">Paso 4: Agregar el otro hidrógeno al oxígeno</h2>
                 <p class="center">En este caso tiene un electrón disponible y puede crear <span style="color: #F95759">otro enlace</span>.</p>
@@ -111,7 +111,7 @@ arrEquations = [
             <div id="slide" class="container">
                 <button id="salir" class="small_right danger">Salir</button>
                 <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
-                <h1>C₃H₇CHO + H₂ &rarr; C₄H₉OH</h1>
+                <h1>C₄H₈O + H₂ &rarr; C₄H₉OH</h1>
         
                 <h2 class="center small_padding">Paso 5: Asignar el número de oxidación del producto</h2>
                 <p class="center"><img src="img/pasos/reaccion1/paso5.png"></p>
@@ -140,7 +140,7 @@ arrEquations = [
             <div id="slide" class="container">
                 <button id="salir" class="small_right danger">Salir</button>
                 <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
-                <h1>C₃H₇CHO + H₂ &rarr; C₄H₉OH</h1>
+                <h1>C₄H₈O + H₂ &rarr; C₄H₉OH</h1>
         
                 <h2 class="center small_padding">¡Muy bien! Has terminado con esta reacción</h2>
                 <p class="center"><img src="img/pasos/reaccion1/paso6.png"></p>
