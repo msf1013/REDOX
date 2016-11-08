@@ -166,7 +166,7 @@ arrEquations = [
             <div id="slide" class="container">
                 <button id="salir" class="small_right danger">Salir</button>
                 <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
-                <h1>C₄H₈ + Cl₂ &rarr; CH₃CHClCHClCH₃</h1>
+                <h1>C₄H₈ + Cl₂ &rarr; C₄H₈Cl₂</h1>
         
                 <h2 class="center small_padding">Paso 1: Asignar los números de oxidación de cada molécula</h2>             
                 <p class="center"><img src="img/pasos/reaccion2/paso1.png"></p>
@@ -195,7 +195,7 @@ arrEquations = [
             <div id="slide" class="container">
                 <button id="salir" class="small_right danger">Salir</button>
                 <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
-                <h1>C₄H₈ + Cl₂ &rarr; CH₃CHClCHClCH₃</h1>
+                <h1>C₄H₈ + Cl₂ &rarr; C₄H₈Cl₂</h1>
         
                 <h2 class="center small_padding">Paso 2: Agregar los dos cloros a donde están los dos carbonos que comparten el doble enlace</h2>
                 <p class="center"><img src="img/pasos/reaccion2/paso1.png"></p>
@@ -222,7 +222,7 @@ arrEquations = [
             <div id="slide" class="container">
                 <button id="salir" class="small_right danger">Salir</button>
                 <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
-                <h1>C₄H₈ + Cl₂ &rarr; CH₃CHClCHClCH₃</h1>
+                <h1>C₄H₈ + Cl₂ &rarr; C₄H₈Cl₂</h1>
         
                 <h2 class="center small_padding">Paso 3: Asignar los números de oxidación del producto</h2>
                 <p class="center">Completa en cada campo de texto el <span style="color: #F95759">número de oxidación</span> de la molécula:</p>
@@ -249,7 +249,7 @@ arrEquations = [
             <div id="slide" class="container">
                 <button id="salir" class="small_right danger">Salir</button>
                 <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
-                <h1>C₄H₈ + Cl₂ &rarr; CH₃CHClCHClCH₃</h1>
+                <h1>C₄H₈ + Cl₂ &rarr; C₄H₈Cl₂</h1>
         
                 <h2 class="center small_padding">¡Muy bien! Has terminado con esta reacción</h2>
                 <p class="center"><img src="img/pasos/reaccion2/paso4.png"></p>
