@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c52fb12d-8950-4014-b127-948ebf000dfe" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/pasos/reaccion3/paso1.PNG" afterPath="$PROJECT_DIR$/img/pasos/reaccion3/paso1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/pasos/reaccion3/paso3.PNG" afterPath="$PROJECT_DIR$/img/pasos/reaccion3/paso3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/pasos/reaccion3/paso4.PNG" afterPath="$PROJECT_DIR$/img/pasos/reaccion3/paso4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/pasos/reaccion4/paso1.PNG" afterPath="$PROJECT_DIR$/img/pasos/reaccion4/paso1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/pasos/reaccion4/paso3.PNG" afterPath="$PROJECT_DIR$/img/pasos/reaccion4/paso3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/pasos/reaccion4/paso4.PNG" afterPath="$PROJECT_DIR$/img/pasos/reaccion4/paso4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/pasos/reaccion5/paso1.PNG" afterPath="$PROJECT_DIR$/img/pasos/reaccion5/paso1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/pasos/reaccion5/paso2.PNG" afterPath="$PROJECT_DIR$/img/pasos/reaccion5/paso2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/pasos/reaccion5/paso3.PNG" afterPath="$PROJECT_DIR$/img/pasos/reaccion5/paso3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/pasos/reaccion5/paso4.PNG" afterPath="$PROJECT_DIR$/img/pasos/reaccion5/paso4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home.html" afterPath="$PROJECT_DIR$/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/animaciones.js" afterPath="$PROJECT_DIR$/js/animaciones.js" />
-    </list>
+    <list default="true" id="c52fb12d-8950-4014-b127-948ebf000dfe" name="Default" comment="" />
     <ignored path="REDOX.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -90,8 +77,8 @@
       <file leaf-file-name="animaciones.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/animaciones.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="279" column="8" selection-start-line="279" selection-start-column="8" selection-end-line="279" selection-end-column="8" />
+            <state relative-caret-position="478">
+              <caret line="281" column="73" selection-start-line="281" selection-start-column="73" selection-end-line="281" selection-end-column="73" />
               <folding>
                 <marker date="1478648489360" expanded="true" signature="173:1515" ph="..." />
                 <marker date="1478648489360" expanded="true" signature="377:383" ph="→" />
@@ -630,12 +617,12 @@
       <workItem from="1477928441242" duration="6509000" />
       <workItem from="1477946947817" duration="725000" />
       <workItem from="1478273081447" duration="37982000" />
-      <workItem from="1478640721079" duration="5930000" />
+      <workItem from="1478640721079" duration="6136000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93522000" />
+    <option name="totallyTimeSpent" value="93728000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="3026" height="1946" extended-state="6" />
@@ -1144,8 +1131,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/animaciones.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="279" column="8" selection-start-line="279" selection-start-column="8" selection-end-line="279" selection-end-column="8" />
+        <state relative-caret-position="478">
+          <caret line="281" column="73" selection-start-line="281" selection-start-column="73" selection-end-line="281" selection-end-column="73" />
           <folding>
             <marker date="1478648489360" expanded="true" signature="173:1515" ph="..." />
             <marker date="1478648489360" expanded="true" signature="377:383" ph="→" />
