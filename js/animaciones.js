@@ -203,8 +203,8 @@ arrEquations = [
                 <p class="center">Escribe la ecuación con el <span style="color: #F95759">hidrógeno agregado</span>:</p>
                 
                 <div class="center big_text small_padding">
-                    CH₃ - <input id="answer" type="text" class="small_input big_text"> -
-                    <input id="answer" type="text" class="small_input big_text"> - CH₃
+                    CH₃ - <input id="answer" type="text" class="big_input big_text"> -
+                    <input id="answer" type="text" class="big_input big_text"> - CH₃
                 </div>
                 <div>
                     <p id="feedback" class="feedback"></p>
@@ -225,6 +225,7 @@ arrEquations = [
                 <h1>C₄H₈ + Cl₂ &rarr; C₄H₈Cl₂</h1>
         
                 <h2 class="center small_padding">Paso 3: Asignar los números de oxidación del producto</h2>
+                <p class="center"><img src="img/pasos/reaccion2/paso3.png"></p>
                 <p class="center">Completa en cada campo de texto el <span style="color: #F95759">número de oxidación</span> de la molécula:</p>
                 
                 <div class="center big_text small_padding">
