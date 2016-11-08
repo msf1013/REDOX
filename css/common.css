@@ -24,6 +24,11 @@ body {
     font-size: 16px;
 }
 
+img {
+    max-width: 90%;
+}
+
+
 table {
     border: 3px solid black;
     border-collapse: collapse;
@@ -170,6 +175,11 @@ iframe {
     font-size: 30px;
 }
 .small_input {
-    width: 70px;
+    width: 50px;
+    font-family: Lato, 'sans-serif';
+}
+
+.big_input {
+    width: 100px;
     font-family: Lato, 'sans-serif';
 }
