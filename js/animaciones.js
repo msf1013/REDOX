@@ -276,7 +276,7 @@ arrEquations = [
             <div id="slide" class="container">
                 <button id="salir" class="small_right danger">Salir</button>
                 <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
-                <h1>C₄H₈O + H₂0 &rarr; C₄H₈O₂ + H₂</h1>
+                <h1>C₄H₈O + H₂O &rarr; C₄H₈O₂ + H₂</h1>
         
                 <h2 class="center small_padding">Paso 1: Asignar los números de oxidación de cada molécula</h2>             
                 <p class="center"><img src="img/pasos/reaccion3/paso1.png"></p>
@@ -304,7 +304,7 @@ arrEquations = [
             <div id="slide" class="container">
                 <button id="salir" class="small_right danger">Salir</button>
                 <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
-                <h1>C₄H₈O + H₂0 &rarr; C₄H₈O₂ + H₂</h1>
+                <h1>C₄H₈O + H₂O &rarr; C₄H₈O₂ + H₂</h1>
         
                 <h2 class="center small_padding">Paso 2: Agregar el OH y/o el hidrógeno al carbono que tiene el doble enlace con el oxígeno</h2>
                 <p class="center">
@@ -334,7 +334,7 @@ arrEquations = [
             <div id="slide" class="container">
                 <button id="salir" class="small_right danger">Salir</button>
                 <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
-                <h1>C₄H₈O + H₂0 &rarr; C₄H₈O₂ + H₂</h1>
+                <h1>C₄H₈O + H₂O &rarr; C₄H₈O₂ + H₂</h1>
         
                 <h2 class="center small_padding">Paso 3: Asignar los números de oxidación del producto</h2>
                 <p class="center"><img src="img/pasos/reaccion3/paso3.png"></p>
@@ -363,7 +363,7 @@ arrEquations = [
             <div id="slide" class="container">
                 <button id="salir" class="small_right danger">Salir</button>
                 <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
-                <h1>C₄H₈O + H₂0 &rarr; C₄H₈O₂ + H₂</h1>
+                <h1>C₄H₈O + H₂O &rarr; C₄H₈O₂ + H₂</h1>
         
                 <h2 class="center small_padding">¡Muy bien! Has terminado con esta reacción</h2>
                 <p class="center"><img src="img/pasos/reaccion3/paso4.png"></p>
