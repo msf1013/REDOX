@@ -98,14 +98,14 @@ function initialize(slide) {
                     }
 
                     setTimeout(function () {
-
+                        console.log("MUEVETEE");
                         $('body').addClass('animated bounceOutDown');
                         $('body').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
                             $('body').removeClass('animated bounceOutDown');
                             initialize(arrSlides[slide.num + 1]);
                         });
 
-                    }, ((slide.attempts <= 3) ? 1000 : 0));
+                    }, ((slide.attempts <= 3) ? 1500 : 0));
 
                 } else if (slide.attempts < 3) {
 
