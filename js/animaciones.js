@@ -480,7 +480,7 @@ arrEquations = [
                 <h2 class="center small_padding">¡Muy bien! Has terminado con esta reacción</h2>
                 <p class="center"><img src="img/pasos/reaccion4/paso4.png"></p>
                 <p class="center">
-                    La reacción pasoó de tener -8 a -10, es decir, gana electrones.
+                    La reacción pasó de tener -8 a -10, es decir, gana electrones.
                     Por lo tanto, es una <span style="color: #F95759">reducción</span>.
                 </p>
                 
