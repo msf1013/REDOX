@@ -2,6 +2,21 @@ body {
     font-family: Lato, 'sans-serif';
     background-color: #EEEEEE;
 }
+
+.table_image {
+    width: 100%;
+    max-width:100%;
+}
+
+.no_border {
+    border: none;
+}
+
+.separate_row {
+    border-collapse:separate;
+    border-spacing:30px;
+}
+
 .container {
     padding: 30px;
     padding-bottom: 90px;
@@ -10,6 +25,25 @@ body {
     margin-top: 30px;
     margin-bottom: 30px;
     background-color: white;
+}
+
+.special_font {
+    font-family: Lato, 'sans-serif';
+    font-size: 20px;
+}
+
+.left_image {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.right_image {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 50%;
 }
 
 .feedback {
@@ -28,6 +62,13 @@ img {
     max-width: 90%;
 }
 
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
 
 table {
     border: 3px solid black;
@@ -82,6 +123,12 @@ option {
 .small_padding {
     margin-bottom: 30px;
 }
+
+.before_after_padding {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
 .big_padding {
     margin-bottom: 45px;
 }

@@ -4,6 +4,10 @@ function moveToTutorial(offset) {
     window.location.href = "reacciones.html?ecuacion=" + (selectedIndex + offset);
 }
 
+function moveToApplications() {
+    window.location.href = "aplicaciones.html";
+}
+
 $.fn.extend({
     animateCss: function (animationName) {
         var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
