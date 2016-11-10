@@ -105,7 +105,7 @@ function initialize(slide) {
                             initialize(arrSlides[slide.num + 1]);
                         });
 
-                    }, ((slide.attempts <= 3) ? 1500 : 0));
+                    }, ((slide.attempts <= 3) ? 1200 : 0));
 
                 } else if (slide.attempts < 3) {
 
@@ -115,7 +115,7 @@ function initialize(slide) {
 
                     document.getElementById("feedback").innerHTML = "¡Respuesta incorrecta!";
 
-                    $('#feedback').animateCss('bounce');
+                    $('#feedback').animateCss('pulse');
 
                 } else {
 
