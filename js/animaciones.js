@@ -501,15 +501,13 @@ arrEquations = [
             <div id="slide" class="container">
                 <button id="salir" class="small_right danger">Salir</button>
                 <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
-                <h1>CH₄ + 2O₂ &rarr; CO₂ + 2H₂O</h1>
+                <h1>CH₄ + []O₂ &rarr; CO₂ + []H₂O</h1>
         
-                <h2 class="center small_padding">Paso 1: Asignar los números de oxidación de cada molécula</h2>             
-                <p class="center"><img src="img/pasos/reaccion5/paso1.png"></p>
-                <p class="center">Completa en cada campo de texto el <span style="color: #F95759">número de oxidación</span> de la molécula (recuerda escribir el signo):</p>
+                <h2 class="center small_padding">Paso 1: Balancear la reación</h2>
+                <p class="center">Completa en cada campo de texto el coeficiente de la molécula:</p>
                         
                 <div class="center big_text small_padding">
-                    CH₄<input id="answer" type="text" class="small_input big_text">
-                    2(O₂)<input id="answer" type="text" class="small_input big_text">
+                    CH₄ + <input id="answer" type="text" class="small_input big_text">O₂ &rarr; CO₂ + <input id="answer" type="text" class="small_input big_text">H₂O
                 </div>
                 <div>
                     <p id="feedback" class="feedback">placeholder</p>
@@ -517,7 +515,7 @@ arrEquations = [
                 </div>
             </div>
         `,
-            "answers" : ["-4", "0"]
+            "answers" : ["2", "2"]
         },
         {
             "num" : 1,
@@ -528,7 +526,33 @@ arrEquations = [
                 <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
                 <h1>CH₄ + 2O₂ &rarr; CO₂ + 2H₂O</h1>
         
-                <h2 class="center small_padding">Paso 2: Agregar los oxígenos a los reactivos de la reacción</h2>
+                <h2 class="center small_padding">Paso 2: Asignar los números de oxidación de cada molécula</h2>             
+                <p class="center"><img src="img/pasos/reaccion5/paso1.png"></p>
+                <p class="center">Completa en cada campo de texto el <span style="color: #F95759">número de oxidación</span> de la molécula (recuerda escribir el signo):</p>
+                        
+                <div class="center big_text small_padding">
+                    CH₄<input id="answer" type="text" class="small_input big_text">
+                    2(O₂)<input id="answer" type="text" class="small_input big_text">
+                </div>
+                <div>
+                    <p id="feedback" class="feedback">placeholder</p>
+                    <button id="regresar" class="big_left normal">Regresar</button>
+                    <button id="avanzar" class="big_right normal">Avanzar</button>
+                </div>
+            </div>
+        `,
+            "answers" : ["-4", "0"]
+        },
+        {
+            "num" : 2,
+            "attempts" : 0,
+            "content" : `
+            <div id="slide" class="container">
+                <button id="salir" class="small_right danger">Salir</button>
+                <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
+                <h1>CH₄ + 2O₂ &rarr; CO₂ + 2H₂O</h1>
+        
+                <h2 class="center small_padding">Paso 3: Agregar los oxígenos a los reactivos de la reacción</h2>
                 <p class="center"><img src="img/pasos/reaccion5/paso2.png"></p>                
                 <p class="center">
                     Se rompen los <span style="color: #F95759">doble enlaces</span> de los dos pares de oxígenos.
@@ -551,7 +575,7 @@ arrEquations = [
             "answers" : ["CO2", "H2O"]
         },
         {
-            "num" : 2,
+            "num" : 3,
             "attempts" : 0,
             "content" : `
             <div id="slide" class="container">
@@ -559,7 +583,7 @@ arrEquations = [
                 <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
                 <h1>CH₄ + 2O₂ &rarr; CO₂ + 2H₂O</h1>
         
-                <h2 class="center small_padding">Paso 3: Asignar los números de oxidación del producto</h2>
+                <h2 class="center small_padding">Paso 4: Asignar los números de oxidación del producto</h2>
                 <p class="center"><img src="img/pasos/reaccion5/paso3.png"></p>
                 <p class="center">Completa en cada campo de texto el <span style="color: #F95759">número de oxidación</span> de la molécula (recuerda escribir el signo si el número de oxidación es diferente de 0):</p>
                 
@@ -577,7 +601,7 @@ arrEquations = [
             "answers" : ["2", "-2"]
         },
         {
-            "num" : 3,
+            "num" : 4,
             "attempts" : 0,
             "content" : `
             <div id="slide" class="container">
@@ -619,7 +643,7 @@ arrEquations = [
                     CH₃<input id="answer" type="text" class="small_input big_text">
                     CH₂<input id="answer" type="text" class="small_input big_text">
                     CH₂<input id="answer" type="text" class="small_input big_text">
-                    CHO-<input id="answer" type="text" class="small_input big_text">
+                    CHO<input id="answer" type="text" class="small_input big_text">
                     H₂O<input id="answer" type="text" class="small_input big_text">
                 </div>
                 <div>
