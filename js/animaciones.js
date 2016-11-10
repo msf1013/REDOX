@@ -600,4 +600,549 @@ arrEquations = [
             "answers" : []
         }
     ],
+    // Ecuacion 5
+    [
+        {
+            "num" : 0,
+            "attempts" : 0,
+            "content" : `
+            <div id="slide" class="container">
+                <button id="salir" class="small_right danger">Salir</button>
+                <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
+                <h1>C₄H₈O  + H₂O &rarr; C₄H₈O₂ + H₂</h1>
+        
+                <h2 class="center small_padding">Ejercicio 1:</h2>             
+                <p class="center"><img src="img/pasos/reaccion6/paso1.png"></p>
+                <p class="center">Completa en cada campo de texto el número de oxidación de los reactivos de la reaccion:</p>
+                        
+                <div class="center big_text small_padding">
+                    CH₃<input id="answer" type="text" class="small_input big_text">
+                    CH₂<input id="answer" type="text" class="small_input big_text">
+                    CH₂<input id="answer" type="text" class="small_input big_text">
+                    CHO-<input id="answer" type="text" class="small_input big_text">
+                    H₂O<input id="answer" type="text" class="small_input big_text">
+                </div>
+                <div>
+                    <p id="feedback" class="feedback">placeholder</p>
+                    <button id="avanzar" class="big_right normal">Avanzar</button>
+                </div>
+            </div>
+        `,
+            "answers" : ["-3", "-2", "-2", "1", "-1"]
+        },
+        {
+            "num" : 1,
+            "attempts" : 0,
+            "content" : `
+            <div id="slide" class="container">
+                <button id="salir" class="small_right danger">Salir</button>
+                <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
+                <h1>C₄H₈O  + H₂O &rarr; C₄H₈O₂ + H₂</h1>
+        
+                <h2 class="center small_padding">Ejercicio 1:</h2>             
+                <p class="center"><img src="img/pasos/reaccion6/paso1.png"></p>
+                <p class="center">Completa en cada campo de texto el número de oxidación de los productos de la  reaccion:</p>
+                        
+                <div class="center big_text small_padding">
+                    CH₃<input id="answer" type="text" class="small_input big_text">
+                    CH₂<input id="answer" type="text" class="small_input big_text">
+                    CH₂<input id="answer" type="text" class="small_input big_text">
+                    COOH<input id="answer" type="text" class="small_input big_text">
+                    H₂<input id="answer" type="text" class="small_input big_text">
+                </div>
+                <div>
+                    <p id="feedback" class="feedback">placeholder</p>
+                    <button id="regresar" class="big_left normal">Regresar</button>
+                    <button id="avanzar" class="big_right normal">Avanzar</button>
+                </div>
+            </div>
+        `,
+            "answers" : ["-3", "-2", "-2", "2", "0"]
+        },
+        {
+            "num" : 2,
+            "attempts" : 0,
+            "content" : `
+            <div id="slide" class="container">
+                <button id="salir" class="small_right danger">Salir</button>
+                <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
+                <h1>C₄H₈O  + H₂O &rarr; C₄H₈O₂ + H₂</h1>
+        
+                <h2 class="center small_padding">¡Muy bien! Has terminado con esta reacción</h2>
+                <p class="center"><img src="img/pasos/reaccion6/paso1.png"></p>
+                
+                <div>
+                    <button id="regresar" class="big_left normal">Regresar</button>
+                </div>
+            </div>
+        `,
+            "answers" : []
+        }
+    ],
+
+    // Ecuacion 6
+    [
+        {
+            "num" : 0,
+            "attempts" : 0,
+            "content" : `
+            <div id="slide" class="container">
+                <button id="salir" class="small_right danger">Salir</button>
+                <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
+                <h1>C₅H₁₀O + H₂ &rarr; C₅H₁₂O</h1>
+        
+                <h2 class="center small_padding">Ejercicio 2:</h2>             
+                <p class="center"><img src="img/pasos/reaccion7/paso1.png"></p>
+                <p class="center">Completa en cada campo de texto el número de oxidación de los reactivos de la reaccion:</p>
+                        
+                <div class="center big_text small_padding">
+                    CH₃<input id="answer" type="text" class="small_input big_text">
+                    CH₂<input id="answer" type="text" class="small_input big_text">
+                    CH₂<input id="answer" type="text" class="small_input big_text">
+                    C=O<input id="answer" type="text" class="small_input big_text">
+                    CH₃<input id="answer" type="text" class="small_input big_text">
+                    H₂<input id="answer" type="text" class="small_input big_text">
+                </div>
+                <div>
+                    <p id="feedback" class="feedback">placeholder</p>
+                    <button id="avanzar" class="big_right normal">Avanzar</button>
+                </div>
+            </div>
+        `,
+            "answers" : ["-3", "-2", "-2", "2", "-3", "0"]
+        },
+        {
+            "num" : 1,
+            "attempts" : 0,
+            "content" : `
+            <div id="slide" class="container">
+                <button id="salir" class="small_right danger">Salir</button>
+                <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
+                <h1>C₅H₁₀O + H₂ &rarr; C₅H₁₂O</h1>
+        
+                <h2 class="center small_padding">Ejercicio 2:</h2>             
+                <p class="center"><img src="img/pasos/reaccion7/paso1.png"></p>
+                <p class="center">Completa en cada campo de texto el número de oxidación de los productos de la  reaccion:</p>
+                        
+                <div class="center big_text small_padding">
+                    CH₃<input id="answer" type="text" class="small_input big_text">
+                    CH₂<input id="answer" type="text" class="small_input big_text">
+                    CH₂<input id="answer" type="text" class="small_input big_text">
+                    CH<input id="answer" type="text" class="small_input big_text">
+                    OH<input id="answer" type="text" class="small_input big_text">
+                    CH₃<input id="answer" type="text" class="small_input big_text">
+                </div>
+                <div>
+                    <p id="feedback" class="feedback">placeholder</p>
+                    <button id="regresar" class="big_left normal">Regresar</button>
+                    <button id="avanzar" class="big_right normal">Avanzar</button>
+                </div>
+            </div>
+        `,
+            "answers" : ["-3", "-2", "-2", "-1", "0", "-3"]
+        },
+        {
+            "num" : 2,
+            "attempts" : 0,
+            "content" : `
+            <div id="slide" class="container">
+                <button id="salir" class="small_right danger">Salir</button>
+                <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
+                <h1>C₅H₁₀O + H₂ &rarr; C₅H₁₂O</h1>
+        
+                <h2 class="center small_padding">¡Muy bien! Has terminado con esta reacción</h2>
+                <p class="center"><img src="img/pasos/reaccion7/paso1.png"></p>
+                
+                <div>
+                    <button id="regresar" class="big_left normal">Regresar</button>
+                </div>
+            </div>
+        `,
+            "answers" : []
+        }
+    ],
+
+    // Ecuacion 7
+    [
+        {
+            "num" : 0,
+            "attempts" : 0,
+            "content" : `
+            <div id="slide" class="container">
+                <button id="salir" class="small_right danger">Salir</button>
+                <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
+                <h1>C₆H₁₂ + H₂O  &rarr; C₆H₁₄O</h1>
+        
+                <h2 class="center small_padding">Ejercicio 3:</h2>             
+                <p class="center"><img src="img/pasos/reaccion8/paso1.png"></p>
+                <p class="center">Completa en cada campo de texto el número de oxidación de los reactivos de la reaccion:</p>
+                        
+                <div class="center big_text small_padding">
+                    CH₃<input id="answer" type="text" class="small_input big_text">
+                    CH₃<input id="answer" type="text" class="small_input big_text">
+                    C=C<input id="answer" type="text" class="small_input big_text">
+                    CH₃<input id="answer" type="text" class="small_input big_text">
+                    CH₃<input id="answer" type="text" class="small_input big_text">
+                    H₂O<input id="answer" type="text" class="small_input big_text">
+                </div>
+                <div>
+                    <p id="feedback" class="feedback">placeholder</p>
+                    <button id="avanzar" class="big_right normal">Avanzar</button>
+                </div>
+            </div>
+        `,
+            "answers" : ["-3", "-3", "0", "-3", "-3", "-1"]
+        },
+        {
+            "num" : 1,
+            "attempts" : 0,
+            "content" : `
+            <div id="slide" class="container">
+                <button id="salir" class="small_right danger">Salir</button>
+                <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
+                <h1>C₆H₁₂ + H₂O  &rarr; C₆H₁₄O</h1>
+        
+                <h2 class="center small_padding">Ejercicio 3:</h2>             
+                <p class="center"><img src="img/pasos/reaccion8/paso1.png"></p>
+                <p class="center">Completa en cada campo de texto el número de oxidación de los productos de la  reaccion:</p>
+                        
+                <div class="center big_text small_padding">
+                    CH₃<input id="answer" type="text" class="small_input big_text">
+                    CH₃<input id="answer" type="text" class="small_input big_text">
+                    CH-C<input id="answer" type="text" class="small_input big_text">
+                    CH₃<input id="answer" type="text" class="small_input big_text">
+                    CH₃<input id="answer" type="text" class="small_input big_text">
+                    OH<input id="answer" type="text" class="small_input big_text">
+                </div>
+                <div>
+                    <p id="feedback" class="feedback">placeholder</p>
+                    <button id="regresar" class="big_left normal">Regresar</button>
+                    <button id="avanzar" class="big_right normal">Avanzar</button>
+                </div>
+            </div>
+        `,
+            "answers" : ["-3", "-3", "-1", "-3", "-3", "0"]
+        },
+        {
+            "num" : 2,
+            "attempts" : 0,
+            "content" : `
+            <div id="slide" class="container">
+                <button id="salir" class="small_right danger">Salir</button>
+                <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
+                <h1>C₆H₁₂ + H₂O  &rarr; C₆H₁₄O</h1>
+        
+                <h2 class="center small_padding">¡Muy bien! Has terminado con esta reacción</h2>
+                <p class="center"><img src="img/pasos/reaccion8/paso1.png"></p>
+                
+                <div>
+                    <button id="regresar" class="big_left normal">Regresar</button>
+                </div>
+            </div>
+        `,
+            "answers" : []
+        }
+    ],
+
+    // Ecuacion 8
+    [
+        {
+            "num" : 0,
+            "attempts" : 0,
+            "content" : `
+            <div id="slide" class="container">
+                <button id="salir" class="small_right danger">Salir</button>
+                <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
+                <h1>HC­≡CH + H₂ &rarr; CH₂=CH₂ + H₂ &rarr; CH₃-CH₃</h1>
+        
+                <h2 class="center small_padding">Ejercicio 4:</h2>             
+                <p class="center"><img src="img/pasos/reaccion9/paso1.png"></p>
+                <p class="center">Completa en cada campo de texto el número de oxidación de los reactivos de la reacción:</p>
+                        
+                <div class="center big_text small_padding">
+                    CH<input id="answer" type="text" class="small_input big_text">
+                    CH<input id="answer" type="text" class="small_input big_text">
+                    H₂<input id="answer" type="text" class="small_input big_text">
+                </div>
+                <div>
+                    <p id="feedback" class="feedback">placeholder</p>
+                    <button id="avanzar" class="big_right normal">Avanzar</button>
+                </div>
+            </div>
+        `,
+            "answers" : ["-1", "-1", "0"]
+        },
+        {
+            "num" : 1,
+            "attempts" : 0,
+            "content" : `
+            <div id="slide" class="container">
+                <button id="salir" class="small_right danger">Salir</button>
+                <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
+                <h1>HC­≡CH + H₂ &rarr; CH₂=CH₂ + H₂ &rarr; CH₃-CH₃</h1>
+        
+                <h2 class="center small_padding">Ejercicio 4:</h2>             
+                <p class="center"><img src="img/pasos/reaccion9/paso1.png"></p>
+                <p class="center">Completa en cada campo de texto el número de oxidación de los intermediarios de la  reacción:</p>
+                        
+                <div class="center big_text small_padding">
+                    CH₂<input id="answer" type="text" class="small_input big_text">
+                    CH₂<input id="answer" type="text" class="small_input big_text">
+                    H₂<input id="answer" type="text" class="small_input big_text">
+                </div>
+                <div>
+                    <p id="feedback" class="feedback">placeholder</p>
+                    <button id="regresar" class="big_left normal">Regresar</button>
+                    <button id="avanzar" class="big_right normal">Avanzar</button>
+                </div>
+            </div>
+        `,
+            "answers" : ["-2", "-2", "0"]
+        },
+        {
+            "num" : 2,
+            "attempts" : 0,
+            "content" : `
+            <div id="slide" class="container">
+                <button id="salir" class="small_right danger">Salir</button>
+                <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
+                <h1>HC­≡CH + H₂ &rarr; CH₂=CH₂ + H₂ &rarr; CH₃-CH₃</h1>
+        
+                <h2 class="center small_padding">Ejercicio 4:</h2>             
+                <p class="center"><img src="img/pasos/reaccion9/paso1.png"></p>
+                <p class="center">Completa en cada campo de texto el número de oxidación de los reactivos de la  reacción:</p>
+                        
+                <div class="center big_text small_padding">
+                    CH₃<input id="answer" type="text" class="small_input big_text">
+                    CH₃<input id="answer" type="text" class="small_input big_text">
+                </div>
+                <div>
+                    <p id="feedback" class="feedback">placeholder</p>
+                    <button id="regresar" class="big_left normal">Regresar</button>
+                    <button id="avanzar" class="big_right normal">Avanzar</button>
+                </div>
+            </div>
+        `,
+            "answers" : ["-3", "-3"]
+        },
+        {
+            "num" : 3,
+            "attempts" : 0,
+            "content" : `
+            <div id="slide" class="container">
+                <button id="salir" class="small_right danger">Salir</button>
+                <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
+                <h1>HC­≡CH + H₂ &rarr; CH₂=CH₂ + H₂ &rarr; CH₃-CH₃</h1>
+        
+                <h2 class="center small_padding">¡Muy bien! Has terminado con esta reacción</h2>
+                <p class="center"><img src="img/pasos/reaccion9/paso1.png"></p>
+                
+                <div>
+                    <button id="regresar" class="big_left normal">Regresar</button>
+                </div>
+            </div>
+        `,
+            "answers" : []
+        }
+    ],
+
+    // Ecuacion 9
+    [
+        {
+            "num" : 0,
+            "attempts" : 0,
+            "content" : `
+            <div id="slide" class="container">
+                <button id="salir" class="small_right danger">Salir</button>
+                <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
+        
+                <h2 class="center small_padding">Ejercicio 5:</h2>             
+                <p class="center">Balancea la reacción:</p>
+                        
+                <div class="center big_text small_padding">
+                    C₃H₈ + <input id="answer" type="text" class="small_input big_text">
+                    O₂ &rarr; <input id="answer" type="text" class="small_input big_text">
+                    CO₂ + <input id="answer" type="text" class="small_input big_text">
+                    H₂O
+                </div>
+                <div>
+                    <p id="feedback" class="feedback">placeholder</p>
+                    <button id="avanzar" class="big_right normal">Avanzar</button>
+                </div>
+            </div>
+        `,
+            "answers" : ["5", "3", "4"]
+        },
+        {
+            "num" : 1,
+            "attempts" : 0,
+            "content" : `
+            <div id="slide" class="container">
+                <button id="salir" class="small_right danger">Salir</button>
+                <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
+                <h1>C₃H₈ + 5O₂ &rarr; 3CO₂ + 4H₂O</h1>
+        
+                <h2 class="center small_padding">Ejercicio 5:</h2>             
+                <p class="center"><img src="img/pasos/reaccion10/paso1.png"></p>
+                <p class="center">Completa en cada campo de texto el número de oxidación de los reactivos de la reaccion:</p>
+                        
+                <div class="center big_text small_padding">
+                    C₃H₈<input id="answer" type="text" class="small_input big_text">
+                    5(O₂)<input id="answer" type="text" class="small_input big_text">
+                </div>
+                <div>
+                    <p id="feedback" class="feedback">placeholder</p>
+                    <button id="regresar" class="big_left normal">Regresar</button>
+                    <button id="avanzar" class="big_right normal">Avanzar</button>
+                </div>
+            </div>
+        `,
+            "answers" : ["-8", "0"]
+        },
+        {
+            "num" : 2,
+            "attempts" : 0,
+            "content" : `
+            <div id="slide" class="container">
+                <button id="salir" class="small_right danger">Salir</button>
+                <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
+                <h1>C₃H₈ + 5O₂ &rarr; 3CO₂ + 4H₂O</h1>
+        
+                <h2 class="center small_padding">Ejercicio 5:</h2>             
+                <p class="center"><img src="img/pasos/reaccion10/paso1.png"></p>
+                <p class="center">Completa en cada campo de texto el número de oxidación de los productos de la  reaccion:</p>
+                        
+                <div class="center big_text small_padding">
+                    3(CO₂)<input id="answer" type="text" class="small_input big_text">
+                    4(H₂O)<input id="answer" type="text" class="small_input big_text">
+                </div>
+                <div>
+                    <p id="feedback" class="feedback">placeholder</p>
+                    <button id="regresar" class="big_left normal">Regresar</button>
+                    <button id="avanzar" class="big_right normal">Avanzar</button>
+                </div>
+            </div>
+        `,
+            "answers" : ["6", "-4"]
+        },
+        {
+            "num" : 3,
+            "attempts" : 0,
+            "content" : `
+            <div id="slide" class="container">
+                <button id="salir" class="small_right danger">Salir</button>
+                <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
+                <h1>C₃H₈ + 5O₂ &rarr; 3CO₂ + 4H₂O</h1>
+        
+                <h2 class="center small_padding">¡Muy bien! Has terminado con esta reacción</h2>
+                <p class="center"><img src="img/pasos/reaccion10/paso1.png"></p>
+                
+                <div>
+                    <button id="regresar" class="big_left normal">Regresar</button>
+                </div>
+            </div>
+        `,
+            "answers" : []
+        }
+    ],
+    // Ecuacion 10
+    [
+        {
+            "num" : 0,
+            "attempts" : 0,
+            "content" : `
+            <div id="slide" class="container">
+                <button id="salir" class="small_right danger">Salir</button>
+                <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
+        
+                <h2 class="center small_padding">Ejercicio 6:</h2>             
+                <p class="center">Balancea la reacción:</p>
+                        
+                <div class="center big_text small_padding">
+                    C₁₆H₃₄ + (<input id="answer" type="text" class="small_input big_text">
+                    /<input id="answer" type="text" class="small_input big_text">
+                    )O₂ &rarr; <input id="answer" type="text" class="small_input big_text">
+                    CO₂ + <input id="answer" type="text" class="small_input big_text">
+                    H₂O 
+                </div>
+                <div>
+                    <p id="feedback" class="feedback">placeholder</p>
+                    <button id="avanzar" class="big_right normal">Avanzar</button>
+                </div>
+            </div>
+        `,
+            "answers" : ["49", "2", "16", "17"]
+        },
+        {
+            "num" : 1,
+            "attempts" : 0,
+            "content" : `
+            <div id="slide" class="container">
+                <button id="salir" class="small_right danger">Salir</button>
+                <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
+                <h1>C₁₆H₃₄ + (49/2)O₂ &rarr; 16CO₂ + 17H₂O</h1>
+        
+                <h2 class="center small_padding">Ejercicio 6:</h2>             
+                <p class="center"><img src="img/pasos/reaccion11/paso1.png"></p>
+                <p class="center">Completa en cada campo de texto el número de oxidación de los reactivos de la reaccion:</p>
+                        
+                <div class="center big_text small_padding">
+                    C₁₆H₃₄<input id="answer" type="text" class="small_input big_text">
+                    (49/2)O₂<input id="answer" type="text" class="small_input big_text">
+                </div>
+                <div>
+                    <p id="feedback" class="feedback">placeholder</p>
+                    <button id="regresar" class="big_left normal">Regresar</button>
+                    <button id="avanzar" class="big_right normal">Avanzar</button>
+                </div>
+            </div>
+        `,
+            "answers" : ["-34", "0"]
+        },
+        {
+            "num" : 2,
+            "attempts" : 0,
+            "content" : `
+            <div id="slide" class="container">
+                <button id="salir" class="small_right danger">Salir</button>
+                <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
+                <h1>C₁₆H₃₄ + (49/2)O₂ &rarr; 16CO₂ + 17H₂O</h1>
+        
+                <h2 class="center small_padding">Ejercicio 6:</h2>             
+                <p class="center"><img src="img/pasos/reaccion11/paso1.png"></p>
+                <p class="center">Completa en cada campo de texto el número de oxidación de los productos de la  reaccion:</p>
+                        
+                <div class="center big_text small_padding">
+                    16CO₂<input id="answer" type="text" class="small_input big_text">
+                    17H₂O<input id="answer" type="text" class="small_input big_text">
+                </div>
+                <div>
+                    <p id="feedback" class="feedback">placeholder</p>
+                    <button id="regresar" class="big_left normal">Regresar</button>
+                    <button id="avanzar" class="big_right normal">Avanzar</button>
+                </div>
+            </div>
+        `,
+            "answers" : ["32", "-17"]
+        },
+        {
+            "num" : 3,
+            "attempts" : 0,
+            "content" : `
+            <div id="slide" class="container">
+                <button id="salir" class="small_right danger">Salir</button>
+                <button id="recordatorio" class="small_left normal">Ver recordatorio</button>
+                <h1>C₁₆H₃₄ + (49/2)O₂ &rarr; 16CO₂ + 17H₂O</h1>
+        
+                <h2 class="center small_padding">¡Muy bien! Has terminado con esta reacción</h2>
+                <p class="center"><img src="img/pasos/reaccion11/paso1.png"></p>
+                
+                <div>
+                    <button id="regresar" class="big_left normal">Regresar</button>
+                </div>
+            </div>
+        `,
+            "answers" : []
+        }
+    ],
 ];

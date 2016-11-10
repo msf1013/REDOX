@@ -93,7 +93,9 @@ function initialize(slide) {
                         document.getElementById("feedback").innerHTML = "¡Correcto!";
                         document.getElementById("feedback").style.color = "green";
                         document.getElementById("avanzar").disabled = true;
-                        document.getElementById("regresar").disabled = true;
+                        if(document.getElementById("regresar")!= null){
+                           document.getElementById("regresar").disabled = true;
+                       }
 
                         document.getElementById("feedback").style.visibility = "visible";
 

@@ -4,6 +4,12 @@ function moveToTutorial(offset) {
     window.location.href = "reacciones.html?ecuacion=" + (selectedIndex + offset);
 }
 
+function moveToTutorial2(offset) {
+    var equations = document.getElementById("equations2");
+    var selectedIndex = equations.selectedIndex;
+    window.location.href = "reacciones.html?ecuacion=" + (selectedIndex + offset);
+}
+
 function moveToApplications() {
     window.location.href = "aplicaciones.html";
 }
