@@ -92,7 +92,10 @@ function initialize(slide) {
                         giveAnswers(slide);
                         document.getElementById("feedback").innerHTML = "¡Correcto!";
                         document.getElementById("feedback").style.color = "green";
-                        document.getElementById("feedback").style.fontSize = 30;
+                        document.getElementById("avanzar").disabled = true;
+                        document.getElementById("regresar").disabled = true;
+
+                        document.getElementById("feedback").style.visibility = "visible";
 
                         $('#feedback').animateCss('pulse');
                     }
@@ -115,6 +118,8 @@ function initialize(slide) {
 
                     document.getElementById("feedback").innerHTML = "¡Respuesta incorrecta!";
 
+                    document.getElementById("feedback").style.visibility = "visible";
+
                     $('#feedback').animateCss('pulse');
 
                 } else {
@@ -125,7 +130,6 @@ function initialize(slide) {
 
                     document.getElementById("feedback").innerHTML = "Buen intento, sigue practicando";
                     document.getElementById("feedback").style.color = "orange";
-                    document.getElementById("feedback").style.fontSize = 25;
 
                     $('#feedback').animateCss('pulse');
 

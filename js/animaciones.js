@@ -22,7 +22,7 @@ arrEquations = [
                     H₂<input id="answer" type="text" class="small_input big_text">
                 </div>
                 <div>
-                    <p id="feedback" class="feedback"></p>
+                    <p id="feedback" class="feedback">placeholder</p>
                     <button id="avanzar" class="big_right normal">Avanzar</button>
                 </div>
             </div>
@@ -47,7 +47,7 @@ arrEquations = [
                     CH₃ - CH₂ - CH₂ - <input id="answer" type="text" class="big_input big_text">
                 </div>
                 <div>
-                    <p id="feedback" class="feedback"></p>
+                    <p id="feedback" class="feedback">placeholder</p>
                     <button id="regresar" class="big_left normal">Regresar</button>
                     <button id="avanzar" class="big_right normal">Avanzar</button>
                 </div>
@@ -71,7 +71,7 @@ arrEquations = [
                     CH₃ - CH₂ - CH₂ - CH₂ - O <input id="answer" type="text" class="small_input big_text">
                 </div>
                 <div>
-                    <p id="feedback" class="feedback"></p>
+                    <p id="feedback" class="feedback">placeholder</p>
                     <button id="regresar" class="big_left normal">Regresar</button>
                     <button id="avanzar" class="big_right normal">Avanzar</button>
                 </div>
@@ -96,7 +96,7 @@ arrEquations = [
                     CH₃ - CH₂ - CH₂ - CH₂ - <input id="answer" type="text" class="small_input big_text">
                 </div>
                 <div>
-                    <p id="feedback" class="feedback"></p>
+                    <p id="feedback" class="feedback">placeholder</p>
                     <button id="regresar" class="big_left normal">Regresar</button>
                     <button id="avanzar" class="big_right normal">Avanzar</button>
                 </div>
@@ -125,7 +125,7 @@ arrEquations = [
                     OH<input id="answer" type="text" class="small_input big_text">
                 </div>
                 <div>
-                    <p id="feedback" class="feedback"></p>
+                    <p id="feedback" class="feedback">placeholder</p>
                     <button id="regresar" class="big_left normal">Regresar</button>
                     <button id="avanzar" class="big_right normal">Avanzar</button>
                 </div>
@@ -181,7 +181,7 @@ arrEquations = [
                     Cl₂<input id="answer" type="text" class="small_input big_text">
                 </div>
                 <div>
-                    <p id="feedback" class="feedback"></p>
+                    <p id="feedback" class="feedback">placeholder</p>
                     <button id="avanzar" class="big_right normal">Avanzar</button>
                 </div>
             </div>
@@ -207,7 +207,7 @@ arrEquations = [
                     <input id="answer" type="text" class="big_input big_text"> - CH₃
                 </div>
                 <div>
-                    <p id="feedback" class="feedback"></p>
+                    <p id="feedback" class="feedback">placeholder</p>
                     <button id="regresar" class="big_left normal">Regresar</button>
                     <button id="avanzar" class="big_right normal">Avanzar</button>
                 </div>
@@ -235,7 +235,7 @@ arrEquations = [
                     CH₃<input id="answer" type="text" class="small_input big_text">
                 </div>
                 <div>
-                    <p id="feedback" class="feedback"></p>
+                    <p id="feedback" class="feedback">placeholder</p>
                     <button id="regresar" class="big_left normal">Regresar</button>
                     <button id="avanzar" class="big_right normal">Avanzar</button>
                 </div>
@@ -290,7 +290,7 @@ arrEquations = [
                     H₂O<input id="answer" type="text" class="small_input big_text">
                 </div>
                 <div>
-                    <p id="feedback" class="feedback"></p>
+                    <p id="feedback" class="feedback">placeholder</p>
                     <button id="avanzar" class="big_right normal">Avanzar</button>
                 </div>
             </div>
@@ -319,7 +319,7 @@ arrEquations = [
                     CH₃ - CH₂ - CH₂ - <input id="answer" type="text" class="big_input big_text">
                 </div>
                 <div>
-                    <p id="feedback" class="feedback"></p>
+                    <p id="feedback" class="feedback">placeholder</p>
                     <button id="regresar" class="big_left normal">Regresar</button>
                     <button id="avanzar" class="big_right normal">Avanzar</button>
                 </div>
@@ -348,7 +348,7 @@ arrEquations = [
                     H₂<input id="answer" type="text" class="small_input big_text">
                 </div>
                 <div>
-                    <p id="feedback" class="feedback"></p>
+                    <p id="feedback" class="feedback">placeholder</p>
                     <button id="regresar" class="big_left normal">Regresar</button>
                     <button id="avanzar" class="big_right normal">Avanzar</button>
                 </div>
@@ -403,7 +403,7 @@ arrEquations = [
                     H₂<input id="answer" type="text" class="small_input big_text">
                 </div>
                 <div>
-                    <p id="feedback" class="feedback"></p>
+                    <p id="feedback" class="feedback">placeholder</p>
                     <button id="avanzar" class="big_right normal">Avanzar</button>
                 </div>
             </div>
@@ -432,7 +432,7 @@ arrEquations = [
                     CH₃ - <input id="answer" type="text" class="big_input big_text"> - <input id="answer" type="text" class="big_input big_text"> - CH₃
                 </div>
                 <div>
-                    <p id="feedback" class="feedback"></p>
+                    <p id="feedback" class="feedback">placeholder</p>
                     <button id="regresar" class="big_left normal">Regresar</button>
                     <button id="avanzar" class="big_right normal">Avanzar</button>
                 </div>
@@ -460,7 +460,7 @@ arrEquations = [
                     CH₃<input id="answer" type="text" class="small_input big_text">
                 </div>
                 <div>
-                    <p id="feedback" class="feedback"></p>
+                    <p id="feedback" class="feedback">placeholder</p>
                     <button id="regresar" class="big_left normal">Regresar</button>
                     <button id="avanzar" class="big_right normal">Avanzar</button>
                 </div>
@@ -512,7 +512,7 @@ arrEquations = [
                     2(O₂)<input id="answer" type="text" class="small_input big_text">
                 </div>
                 <div>
-                    <p id="feedback" class="feedback"></p>
+                    <p id="feedback" class="feedback">placeholder</p>
                     <button id="avanzar" class="big_right normal">Avanzar</button>
                 </div>
             </div>
@@ -542,7 +542,7 @@ arrEquations = [
                     <input id="answer" type="text" class="big_input big_text"> + <input id="answer" type="text" class="big_input big_text">
                 </div>
                 <div>
-                    <p id="feedback" class="feedback"></p>
+                    <p id="feedback" class="feedback">placeholder</p>
                     <button id="regresar" class="big_left normal">Regresar</button>
                     <button id="avanzar" class="big_right normal">Avanzar</button>
                 </div>
@@ -568,7 +568,7 @@ arrEquations = [
                     2(H₂O)<input id="answer" type="text" class="small_input big_text">
                 </div>
                 <div>
-                    <p id="feedback" class="feedback"></p>
+                    <p id="feedback" class="feedback">placeholder</p>
                     <button id="regresar" class="big_left normal">Regresar</button>
                     <button id="avanzar" class="big_right normal">Avanzar</button>
                 </div>
