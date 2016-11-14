@@ -1,5 +1,7 @@
 var arrSlides;
 
+// Metodo que valida que la reaccion seleccionada exista,
+// e inicializa la secuencia de slides/filminas
 function start() {
 
     var pos = window.location.href.indexOf("=");
@@ -19,25 +21,25 @@ function start() {
         return;
     }
 
-    console.log(valor);
-
+    // Inicializar slides
     arrSlides = arrEquations[valor];
     initialize(arrSlides[0]);
 }
 
 var lastSlide = -1;
 
+// Funcion para validar que las respuestas sean correctas
 function checkAnswers (slide) {
     var answers = document.getElementsByTagName("input");
 
     for (i = 0; i < answers.length; i ++) {
-        console.log(answers[i].value.replace(/ /g,'').replace(/\+/g,''));
         if (answers[i].value.replace(/ /g,'').replace(/\+/g,'') != slide.answers[i]) return false;
     }
 
     return true;
 }
 
+// Funcion que muestra en pantalla las respuestas de la slide en cuestion
 function giveAnswers(slide) {
     var answers = document.getElementsByTagName("input");
 
@@ -47,14 +49,19 @@ function giveAnswers(slide) {
     }
 }
 
+// Funcion que inicializa en pantalla los contenidos de la slide
 function initialize(slide) {
+
+    // Limpiar contenido
     document.body.innerHTML = "";
     document.body.innerHTML = slide.content + modal;
 
+    // Link para regresar a home
     document.getElementById("salir").addEventListener("click", function () {
         window.location.href = 'home.html';
     });
 
+    // Mostrar modal de recordatorio
     document.getElementById("recordatorio").addEventListener("click", function () {
         $('#modal').modal({fadeDuration: 200});
     });
@@ -68,8 +75,7 @@ function initialize(slide) {
         $("body").addClass("animated bounceInDown");
         lastSlide ++;
     }
-    console.log("attempts");
-    console.log(slide.attempts);
+
     if (slide.num < lastSlide || slide.attempts > 3) {
         giveAnswers(slide);
     }
@@ -82,9 +88,6 @@ function initialize(slide) {
             $('body').removeClass('animated bounceInDown');
             if (slide.num == lastSlide) {
                 // Checar respuesta
-
-                //console.log(document.getElementById("answer").value);
-                //console.log(slide["answer"]);
 
                 if (checkAnswers(slide)) {
 
@@ -103,7 +106,6 @@ function initialize(slide) {
                     }
 
                     setTimeout(function () {
-                        console.log("MUEVETEE");
                         $('body').addClass('animated bounceOutDown');
                         $('body').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
                             $('body').removeClass('animated bounceOutDown');
@@ -115,8 +117,6 @@ function initialize(slide) {
                 } else if (slide.attempts < 3) {
 
                     slide.attempts ++;
-
-                    console.log("LOL");
 
                     document.getElementById("feedback").innerHTML = "¡Respuesta incorrecta!";
 
@@ -149,12 +149,7 @@ function initialize(slide) {
 
         document.getElementById("regresar").addEventListener("click", function () {
             $('body').removeClass('animated bounceInDown');
-            console.log("REGRESAR");
-            //$('body').addClass('animated bounceOutDown');
-            //$('body').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
-            //    $('body').removeClass('animated bounceOutDown');
-                initialize(arrSlides[slide.num - 1]);
-            //});
+            initialize(arrSlides[slide.num - 1]);
         });
 
     }

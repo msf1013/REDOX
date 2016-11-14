@@ -1,19 +1,23 @@
+// Funcion para moverse al link de las reacciones paso a paso
 function moveToTutorial(offset) {
     var equations = document.getElementById("equations");
     var selectedIndex = equations.selectedIndex;
     window.location.href = "reacciones.html?ecuacion=" + (selectedIndex + offset);
 }
 
+// Funcion para moverse al link de las reacciones de quiz
 function moveToTutorial2(offset) {
     var equations = document.getElementById("equations2");
     var selectedIndex = equations.selectedIndex;
     window.location.href = "reacciones.html?ecuacion=" + (selectedIndex + offset);
 }
 
+// Funcion para moverse al link de aplicaciones/ejemplos
 function moveToApplications() {
     window.location.href = "aplicaciones.html";
 }
 
+// Funcion para animar un elemento de HTML
 $.fn.extend({
     animateCss: function (animationName) {
         var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
@@ -23,6 +27,7 @@ $.fn.extend({
     }
 });
 
+// String que almacena el modal con informacion de recordatorio
 var modal = `
     <div class="modal" id="modal" style="display:none;">
         <p class="small_font">
