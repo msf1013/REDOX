@@ -96,14 +96,16 @@ function initialize(slide) {
                         document.getElementById("feedback").innerHTML = "¡Correcto!";
                         document.getElementById("feedback").style.color = "green";
                         document.getElementById("avanzar").disabled = true;
-                        if(document.getElementById("regresar")!= null){
-                           document.getElementById("regresar").disabled = true;
-                       }
-
                         document.getElementById("feedback").style.visibility = "visible";
 
                         $('#feedback').animateCss('pulse');
                     }
+
+                    // Bloquear navegacion
+                    if(document.getElementById("regresar") != null){
+                        document.getElementById("regresar").disabled = true;
+                    }
+                    document.getElementById("avanzar").disabled = true;
 
                     setTimeout(function () {
                         $('body').addClass('animated bounceOutDown');

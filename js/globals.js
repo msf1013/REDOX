@@ -28,37 +28,5 @@ $.fn.extend({
 });
 
 // String que almacena el modal con informacion de recordatorio
-var modal = `
-    <div class="modal" id="modal" style="display:none;">
-        <p class="small_font">
-            El <span style="color: #F95759">estado de oxidación</span> para cada átomo de carbono en una molécula orgánica
-            se obtiene agregando cada uno de los siguientes valores para cada uno de sus cuatros enlaces:
-        </p>
-
-        <table class="small_font" style="text-align: center; margin-right: auto; margin-left: auto">
-            <tr>
-                <th>Para cada enlace con:</th>
-                <th>Número de oxidación</th>
-            </tr>
-            <tr>
-                <td>H o metales</td>
-                <td>-1</td>
-            </tr>
-            <tr>
-                <td>C</td>
-                <td>0</td>
-            </tr>
-            <tr>
-                <td>Hetereoátomos (N, X, O, S)</td>
-                <td>+1</td>
-            </tr>
-        </table>
-
-        <ul>
-            <li class="small_font"><span style="color: #F95759">Oxidación</span> en una molécula orgánica ocurre cuando son removidos hidrógenos o se añaden oxígenos o heteroátomos.</li>
-            <li class="small_font"><span style="color: #F95759">Reducción</span> (ganancia de electrones) en una molécula ocurre al añadir hidrógenos o remover oxígenos.</li>
-            <li class="small_font">La adición de otros heteroátomos sobre una molécula es también <span style="color: #F95759">oxidación</span> (a menos que el hidrógeno también se agregue) y remover heteroátomos es <span style="color: #F95759">reducción</span> (sin remover hidrógenos).</li>
-        </ul>
-    </div>
-`;
+var modal = "\n    <div class=\"modal\" id=\"modal\" style=\"display:none;\">\n        <p class=\"small_font\">\n            El <span style=\"color: #F95759\">estado de oxidaci\xF3n</span> para cada \xE1tomo de carbono en una mol\xE9cula org\xE1nica\n            se obtiene agregando cada uno de los siguientes valores para cada uno de sus cuatros enlaces:\n        </p>\n\n        <table class=\"small_font\" style=\"text-align: center; margin-right: auto; margin-left: auto\">\n            <tr>\n                <th>Para cada enlace con:</th>\n                <th>N\xFAmero de oxidaci\xF3n</th>\n            </tr>\n            <tr>\n                <td>H o metales</td>\n                <td>-1</td>\n            </tr>\n            <tr>\n                <td>C</td>\n                <td>0</td>\n            </tr>\n            <tr>\n                <td>Hetereo\xE1tomos (N, X, O, S)</td>\n                <td>+1</td>\n            </tr>\n        </table>\n\n        <ul>\n            <li class=\"small_font\"><span style=\"color: #F95759\">Oxidaci\xF3n</span> en una mol\xE9cula org\xE1nica ocurre cuando son removidos hidr\xF3genos o se a\xF1aden ox\xEDgenos o hetero\xE1tomos.</li>\n            <li class=\"small_font\"><span style=\"color: #F95759\">Reducci\xF3n</span> (ganancia de electrones) en una mol\xE9cula ocurre al a\xF1adir hidr\xF3genos o remover ox\xEDgenos.</li>\n            <li class=\"small_font\">La adici\xF3n de otros hetero\xE1tomos sobre una mol\xE9cula es tambi\xE9n <span style=\"color: #F95759\">oxidaci\xF3n</span> (a menos que el hidr\xF3geno tambi\xE9n se agregue) y remover hetero\xE1tomos es <span style=\"color: #F95759\">reducci\xF3n</span> (sin remover hidr\xF3genos).</li>\n        </ul>\n    </div>\n";
 
